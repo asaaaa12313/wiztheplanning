@@ -1,10 +1,13 @@
 import { Resend } from 'resend'
 import { NextResponse } from 'next/server'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 export async function POST(req: Request) {
   try {
+    if (!process.env.RESEND_API_KEY) {
+      return NextResponse.json({ error: 'API 키가 설정되지 않았습니다.' }, { status: 500 })
+    }
+
+    const resend = new Resend(process.env.RESEND_API_KEY)
     const { name, phone, store, message, type, industry } = await req.json()
 
     const subject = type === '견적서'
