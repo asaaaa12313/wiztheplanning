@@ -1,144 +1,137 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
-  <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#ECFDF5"/>
-      <stop offset="100%" stop-color="#D1FAE5"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="800" height="500" rx="16" fill="url(#bgGrad)"/>
+  <rect width="800" height="500" fill="#ECFDF5"/>
 
   <!-- Title -->
   <text x="400" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#064E3B">멀티플랫폼 리뷰 통합 대시보드</text>
-  <line x1="290" y1="60" x2="510" y2="60" stroke="#10B981" stroke-width="3"/>
+  <rect x="290" y="58" width="220" height="3" fill="#10B981"/>
 
   <!-- Platform Cards Row -->
   <!-- Naver -->
-  <rect x="40" y="82" width="170" height="130" rx="12" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
-  <rect x="40" y="82" width="170" height="5" rx="2.5" fill="#03C75A"/>
-  <rect x="56" y="100" width="48" height="20" rx="4" fill="#03C75A" opacity="0.12"/>
+  <rect x="40" y="82" width="170" height="130" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="40" y="82" width="170" height="5" fill="#03C75A"/>
+  <rect x="56" y="100" width="48" height="20" fill="#03C75A" opacity="0.12"/>
   <text x="80" y="114" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#03C75A">네이버</text>
   <text x="60" y="142" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#064E3B">4.6</text>
-  <text x="100" y="142" font-family="system-ui, sans-serif" font-size="12" fill="#10B981">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</text>
+  <text x="100" y="142" font-family="system-ui, sans-serif" font-size="12" fill="#10B981">/5.0</text>
   <text x="60" y="162" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">리뷰 328건</text>
   <text x="150" y="162" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#16A34A">+0.8</text>
-  <rect x="56" y="176" width="140" height="6" rx="3" fill="#D1FAE5"/>
-  <rect x="56" y="176" width="126" height="6" rx="3" fill="#03C75A"/>
+  <rect x="56" y="176" width="140" height="6" fill="#D1FAE5"/>
+  <rect x="56" y="176" width="126" height="6" fill="#03C75A"/>
   <text x="60" y="198" font-family="system-ui, sans-serif" font-size="9" fill="#9CA3AF">이번 주 +12건</text>
 
   <!-- Google -->
-  <rect x="225" y="82" width="170" height="130" rx="12" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
-  <rect x="225" y="82" width="170" height="5" rx="2.5" fill="#4285F4"/>
-  <rect x="241" y="100" width="40" height="20" rx="4" fill="#4285F4" opacity="0.12"/>
+  <rect x="225" y="82" width="170" height="130" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="225" y="82" width="170" height="5" fill="#4285F4"/>
+  <rect x="241" y="100" width="40" height="20" fill="#4285F4" opacity="0.12"/>
   <text x="261" y="114" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#4285F4">구글</text>
   <text x="245" y="142" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#064E3B">4.5</text>
-  <text x="285" y="142" font-family="system-ui, sans-serif" font-size="12" fill="#10B981">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</text>
+  <text x="285" y="142" font-family="system-ui, sans-serif" font-size="12" fill="#10B981">/5.0</text>
   <text x="245" y="162" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">리뷰 156건</text>
   <text x="335" y="162" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#16A34A">+0.6</text>
-  <rect x="241" y="176" width="140" height="6" rx="3" fill="#D1FAE5"/>
-  <rect x="241" y="176" width="120" height="6" rx="3" fill="#4285F4"/>
+  <rect x="241" y="176" width="140" height="6" fill="#D1FAE5"/>
+  <rect x="241" y="176" width="120" height="6" fill="#4285F4"/>
   <text x="245" y="198" font-family="system-ui, sans-serif" font-size="9" fill="#9CA3AF">이번 주 +8건</text>
 
   <!-- Kakao -->
-  <rect x="410" y="82" width="170" height="130" rx="12" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
-  <rect x="410" y="82" width="170" height="5" rx="2.5" fill="#FEE500"/>
-  <rect x="426" y="100" width="50" height="20" rx="4" fill="#FEE500" opacity="0.2"/>
+  <rect x="410" y="82" width="170" height="130" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="410" y="82" width="170" height="5" fill="#FEE500"/>
+  <rect x="426" y="100" width="50" height="20" fill="#FEE500" opacity="0.2"/>
   <text x="451" y="114" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#3B1C0A">카카오</text>
   <text x="430" y="142" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#064E3B">4.4</text>
-  <text x="470" y="142" font-family="system-ui, sans-serif" font-size="12" fill="#10B981">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</text>
+  <text x="470" y="142" font-family="system-ui, sans-serif" font-size="12" fill="#10B981">/5.0</text>
   <text x="430" y="162" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">리뷰 89건</text>
   <text x="520" y="162" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#16A34A">+0.9</text>
-  <rect x="426" y="176" width="140" height="6" rx="3" fill="#D1FAE5"/>
-  <rect x="426" y="176" width="112" height="6" rx="3" fill="#F59E0B"/>
+  <rect x="426" y="176" width="140" height="6" fill="#D1FAE5"/>
+  <rect x="426" y="176" width="112" height="6" fill="#F59E0B"/>
   <text x="430" y="198" font-family="system-ui, sans-serif" font-size="9" fill="#9CA3AF">이번 주 +5건</text>
 
   <!-- Total Summary -->
-  <rect x="598" y="82" width="170" height="130" rx="12" fill="#064E3B"/>
+  <rect x="598" y="82" width="170" height="130" fill="#064E3B"/>
   <text x="683" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#6EE7B7" letter-spacing="0.15em">통합 평점</text>
   <text x="683" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="42" font-weight="800" fill="#fff">4.5</text>
-  <text x="683" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#A7F3D0">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</text>
-  <text x="683" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6EE7B7">총 573건 · +0.8점 상승</text>
+  <text x="683" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#A7F3D0">/5.0</text>
+  <text x="683" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6EE7B7">총 573건 / +0.8점 상승</text>
 
   <!-- Response Process -->
-  <rect x="40" y="230" width="365" height="252" rx="12" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="40" y="230" width="365" height="252" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
   <text x="60" y="258" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#064E3B">부정 리뷰 대응 프로세스</text>
   <text x="340" y="258" font-family="system-ui, sans-serif" font-size="10" fill="#10B981">평균 2시간 내 대응</text>
 
   <!-- Process Steps -->
-  <rect x="56" y="274" width="72" height="56" rx="8" fill="#10B981" opacity="0.08"/>
-  <text x="92" y="298" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#10B981">&#x1F91D;</text>
+  <rect x="56" y="274" width="72" height="56" fill="#10B981" opacity="0.08"/>
+  <text x="92" y="296" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#10B981">1</text>
   <text x="92" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#064E3B">공감</text>
 
   <path d="M132 302 L148 302" stroke="#10B981" stroke-width="1.5"/>
   <polygon points="148,298 154,302 148,306" fill="#10B981"/>
 
-  <rect x="158" y="274" width="72" height="56" rx="8" fill="#10B981" opacity="0.08"/>
-  <text x="194" y="298" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#10B981">&#x1F64F;</text>
+  <rect x="158" y="274" width="72" height="56" fill="#10B981" opacity="0.08"/>
+  <text x="194" y="296" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#10B981">2</text>
   <text x="194" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#064E3B">사과</text>
 
   <path d="M234 302 L250 302" stroke="#10B981" stroke-width="1.5"/>
   <polygon points="250,298 256,302 250,306" fill="#10B981"/>
 
-  <rect x="260" y="274" width="72" height="56" rx="8" fill="#10B981" opacity="0.08"/>
-  <text x="296" y="298" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#10B981">&#x2705;</text>
+  <rect x="260" y="274" width="72" height="56" fill="#10B981" opacity="0.08"/>
+  <text x="296" y="296" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#10B981">3</text>
   <text x="296" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#064E3B">해결</text>
 
   <path d="M336 302 L348 302" stroke="#10B981" stroke-width="1.5"/>
   <polygon points="348,298 354,302 348,306" fill="#10B981"/>
 
-  <rect x="322" y="274" width="72" height="56" rx="8" fill="#10B981" opacity="0.12"/>
-  <text x="358" y="298" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#10B981">&#x1F504;</text>
-  <text x="358" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#064E3B">재방문유도</text>
+  <rect x="356" y="274" width="38" height="56" fill="#10B981" opacity="0.12"/>
+  <text x="375" y="296" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#10B981">4</text>
+  <text x="375" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#064E3B">재방문</text>
 
   <!-- Recent Reviews -->
   <text x="60" y="356" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#064E3B">최근 리뷰 알림</text>
 
-  <rect x="56" y="368" width="336" height="38" rx="6" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
-  <circle cx="76" cy="387" r="10" fill="#10B981" opacity="0.15"/>
-  <text x="76" y="391" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#10B981">&#x2605;</text>
-  <text x="94" y="384" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#064E3B">네이버 &#x2605;5.0</text>
+  <rect x="56" y="368" width="336" height="38" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <rect x="66" y="377" width="20" height="20" fill="#10B981" opacity="0.15"/>
+  <text x="76" y="391" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#10B981">5</text>
+  <text x="94" y="384" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#064E3B">네이버 5.0</text>
   <text x="94" y="398" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">"서비스가 너무 좋아요! 다음에도 방문하겠습니다"</text>
 
-  <rect x="56" y="412" width="336" height="38" rx="6" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
-  <circle cx="76" cy="431" r="10" fill="#EF4444" opacity="0.15"/>
-  <text x="76" y="435" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#EF4444">!</text>
-  <text x="94" y="428" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#991B1B">구글 &#x2605;2.0 — 대응 필요</text>
-  <text x="94" y="442" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">"대기 시간이 너무 길었어요" · 1시간 전</text>
-  <rect x="340" y="420" width="44" height="22" rx="4" fill="#EF4444"/>
+  <rect x="56" y="412" width="336" height="38" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <rect x="66" y="421" width="20" height="20" fill="#EF4444" opacity="0.15"/>
+  <text x="76" y="435" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#EF4444">!</text>
+  <text x="94" y="428" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#991B1B">구글 2.0 — 대응 필요</text>
+  <text x="94" y="442" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">"대기 시간이 너무 길었어요" / 1시간 전</text>
+  <rect x="340" y="420" width="44" height="22" fill="#EF4444"/>
   <text x="362" y="434" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#fff">대응</text>
 
-  <rect x="56" y="456" width="336" height="20" rx="4" fill="#F9FAFB"/>
-  <text x="224" y="470" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#9CA3AF">24/7 실시간 모니터링 · 신규 리뷰 즉시 알림</text>
+  <rect x="56" y="456" width="336" height="20" fill="#F9FAFB"/>
+  <text x="224" y="470" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#9CA3AF">24/7 실시간 모니터링 / 신규 리뷰 즉시 알림</text>
 
   <!-- Right: Metrics -->
-  <rect x="425" y="230" width="340" height="252" rx="12" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="425" y="230" width="340" height="252" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
   <text x="445" y="258" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#064E3B">리뷰 성과 지표</text>
 
   <!-- Metric 1 -->
-  <rect x="441" y="274" width="148" height="72" rx="8" fill="#ECFDF5"/>
+  <rect x="441" y="274" width="148" height="72" fill="#ECFDF5"/>
   <text x="515" y="304" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" font-weight="800" fill="#10B981">+0.8</text>
   <text x="515" y="324" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#064E3B">평균 별점 상승</text>
   <text x="515" y="338" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#6B7280">3.8 → 4.6</text>
 
   <!-- Metric 2 -->
-  <rect x="601" y="274" width="148" height="72" rx="8" fill="#ECFDF5"/>
+  <rect x="601" y="274" width="148" height="72" fill="#ECFDF5"/>
   <text x="675" y="304" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" font-weight="800" fill="#059669">+62%</text>
   <text x="675" y="324" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#064E3B">리뷰 전환율</text>
   <text x="675" y="338" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#6B7280">긍정 리뷰 확대</text>
 
   <!-- Metric 3 -->
-  <rect x="441" y="358" width="148" height="72" rx="8" fill="#ECFDF5"/>
+  <rect x="441" y="358" width="148" height="72" fill="#ECFDF5"/>
   <text x="515" y="388" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" font-weight="800" fill="#047857">2시간</text>
   <text x="515" y="408" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#064E3B">부정 리뷰 대응</text>
   <text x="515" y="422" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#6B7280">평균 응답 시간</text>
 
   <!-- Metric 4 -->
-  <rect x="601" y="358" width="148" height="72" rx="8" fill="#ECFDF5"/>
+  <rect x="601" y="358" width="148" height="72" fill="#ECFDF5"/>
   <text x="675" y="388" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" font-weight="800" fill="#065F46">24/7</text>
   <text x="675" y="408" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#064E3B">실시간 모니터링</text>
   <text x="675" y="422" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#6B7280">자동 알림 시스템</text>
 
   <!-- Bottom insight bar -->
-  <rect x="441" y="444" width="308" height="32" rx="6" fill="#064E3B"/>
-  <text x="595" y="464" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#6EE7B7">리뷰 감성 분석 · 고객 불만 패턴 · 서비스 개선 제안</text>
+  <rect x="441" y="444" width="308" height="32" fill="#064E3B"/>
+  <text x="595" y="464" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#6EE7B7">리뷰 감성 분석 / 고객 불만 패턴 / 서비스 개선 제안</text>
 </svg>

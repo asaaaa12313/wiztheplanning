@@ -190,11 +190,11 @@ export default function IntroSequenceV2({ active = true }: IntroSequenceV2Props)
   // S11 (뷰티/운동) 마무리 멘트 전환
   useEffect(() => {
     if (sc !== 11) { setS11Closing(false); return }
-    const t = setTimeout(() => setS11Closing(true), 1500)
+    const t = setTimeout(() => setS11Closing(true), 2500)
     return () => clearTimeout(t)
   }, [sc])
 
-  // 타이머 스케줄 (~20초/사이클)
+  // 타이머 스케줄 (~38초/사이클)
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([])
 
   const startCycle = useCallback(() => {
@@ -205,20 +205,20 @@ export default function IntroSequenceV2({ active = true }: IntroSequenceV2Props)
       setTimeout(() => changeSc(3), 3500),        // S3: 모든 마케팅을 합니다   (1.5s)
       setTimeout(() => changeSc(4), 5000),        // S4: 연도+클라이언트카운터   (4.5s)
       setTimeout(() => changeSc(5), 9500),        // S5: 어떤 업종이신가요?     (1.5s)
-      setTimeout(() => changeSc(6), 11000),       // S6: 병원/의료             (1.5s)
-      setTimeout(() => changeSc(7), 12500),       // S7: 음식점               (1.5s)
-      setTimeout(() => changeSc(8), 14000),       // S8: 배달 전문             (1.5s)
-      setTimeout(() => changeSc(9), 15500),       // S9: 부동산               (1.5s)
-      setTimeout(() => changeSc(10), 17000),      // S10: 학원/교육            (1.5s)
-      setTimeout(() => changeSc(11), 18500),      // S11: 뷰티/운동            (1.5s)
-      setTimeout(() => changeSc(12), 20000),      // S12: W 로고               (6s)
+      setTimeout(() => changeSc(6), 11000),       // S6: 병원/의료             (3.5s)
+      setTimeout(() => changeSc(7), 14500),       // S7: 음식점               (3.5s)
+      setTimeout(() => changeSc(8), 18000),       // S8: 배달 전문             (3.5s)
+      setTimeout(() => changeSc(9), 21500),       // S9: 부동산               (3.5s)
+      setTimeout(() => changeSc(10), 25000),      // S10: 학원/교육            (3.5s)
+      setTimeout(() => changeSc(11), 28500),      // S11: 뷰티/운동            (3.5s)
+      setTimeout(() => changeSc(12), 32000),      // S12: W 로고               (6s)
       setTimeout(() => {                          // 루프 리셋
         setSc(0)
         setPrevSc(-1)
         setTransitioning(false)
         setS11Closing(false)
         setTimeout(() => startCycle(), 200)
-      }, 26000),
+      }, 38000),
     ]
   }, [changeSc])
 
