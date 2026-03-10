@@ -56,7 +56,7 @@ export const performanceSteps: MediaPartner[] = [
       '최적화 전 ROAS 82% → 최적화 후 ROAS 328%로 4배 수익 개선',
     ],
     caseStudies: ['A 카페: 시선을 사로잡는 메뉴 영상으로 방문율 급증'],
-    images: [],
+    images: ['/images/performance/1.png'],
   },
   {
     name: '2단계: 방문/예약',
@@ -119,7 +119,7 @@ export const performanceSteps: MediaPartner[] = [
       '방문객 5.2배 증가 — 매장 스토리와 명확한 안내',
       '정보 탐색→방문까지 전 과정 데이터 기반 최적화',
     ],
-    images: [],
+    images: ['/images/performance/2.png'],
   },
   {
     name: '3단계: 리뷰',
@@ -178,7 +178,7 @@ export const performanceSteps: MediaPartner[] = [
       '이벤트 참여 고객 재방문율 4.8배, 신규 고객 유치 3.2배 증가',
     ],
     caseStudies: ['B 식당: 복권 이벤트로 신규고객 유입 크게 증가'],
-    images: [],
+    images: ['/images/performance/3.png'],
   },
   {
     name: '4단계: 재방문',
@@ -235,7 +235,7 @@ export const performanceSteps: MediaPartner[] = [
       '재방문 고객 1명 = 신규 고객 3.7명의 마케팅 비용 절감 효과',
     ],
     caseStudies: ['C 미용실: 적립 도입 후 객단가 28% 상승, 방문 2.8회/월'],
-    images: [],
+    images: ['/images/performance/4.png'],
   },
   {
     name: '5단계: 노출',
@@ -305,6 +305,6 @@ export const performanceSteps: MediaPartner[] = [
       '리뷰 작성률 300% 증가',
       '재방문율 250% 상승',
     ],
-    images: [],
+    images: ['/images/performance/5.png'],
   },
 ]
