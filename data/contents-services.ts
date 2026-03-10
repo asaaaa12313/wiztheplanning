@@ -70,7 +70,7 @@ export const contentsServices: MediaPartner[] = [
       '의료: 시술 키워드 1페이지 진입',
       '소상공인: 신규 고객 유입 175% 증가',
     ],
-    images: ['/images/contents/blog.svg'],
+    images: ['/images/contents/blog.png'],
   },
   {
     name: '체험단',
@@ -130,7 +130,7 @@ export const contentsServices: MediaPartner[] = [
       '헬스/스포츠: 체험 리뷰 기반 회원가입 전환율 45% 향상',
       '카페: 블로그 체험단 운영 후 주말 방문객 80% 증가',
     ],
-    images: ['/images/contents/experience.svg'],
+    images: ['/images/contents/experience.png'],
   },
   {
     name: 'SNS 대행',
@@ -190,7 +190,7 @@ export const contentsServices: MediaPartner[] = [
       '요식업: SNS 통합 운영 후 주말 웨이팅 200% 증가',
       '소상공인: 해시태그 전략으로 지역 타깃 도달 3배 향상',
     ],
-    images: ['/images/contents/sns.svg'],
+    images: ['/images/contents/sns.png'],
   },
   {
     name: '리뷰 관리',
@@ -252,6 +252,6 @@ export const contentsServices: MediaPartner[] = [
       '헬스/스포츠: 리뷰 관리 후 회원가입 전환율 45% 향상',
       '뷰티: 예약 문의 월 60건 이상 증가',
     ],
-    images: ['/images/contents/review.svg'],
+    images: ['/images/contents/review.png'],
   },
 ]
