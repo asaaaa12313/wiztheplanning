@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF7ED"/>
+      <stop offset="100%" stop-color="#FFEDD5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="400" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#7C2D12">SNS 통합 운영 시스템</text>
+  <line x1="310" y1="60" x2="490" y2="60" stroke="#F97316" stroke-width="3"/>
+
+  <!-- Left: Instagram Mockup -->
+  <rect x="40" y="82" width="240" height="400" rx="20" fill="#fff" stroke="#FED7AA" stroke-width="2"/>
+  <!-- Phone notch -->
+  <rect x="120" y="86" width="80" height="4" rx="2" fill="#E5E7EB"/>
+
+  <!-- Instagram Header -->
+  <rect x="52" y="100" width="216" height="36" rx="0" fill="#fff"/>
+  <text x="62" y="124" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#262626">brandname</text>
+  <circle cx="244" cy="118" r="10" fill="none" stroke="#262626" stroke-width="1.5"/>
+  <text x="244" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#262626">+</text>
+
+  <!-- Profile Stats -->
+  <circle cx="90" cy="164" r="24" fill="#F97316" opacity="0.15"/>
+  <text x="90" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#F97316">B</text>
+  <text x="156" y="156" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#262626">128</text>
+  <text x="156" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#8E8E8E">게시물</text>
+  <text x="210" y="156" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#262626">5.2K</text>
+  <text x="210" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#8E8E8E">팔로워</text>
+
+  <!-- Grid posts (3x3) -->
+  <rect x="52" y="192" width="68" height="68" rx="2" fill="#F97316" opacity="0.2"/>
+  <rect x="124" y="192" width="68" height="68" rx="2" fill="#FB923C" opacity="0.25"/>
+  <rect x="196" y="192" width="68" height="68" rx="2" fill="#F97316" opacity="0.15"/>
+  <rect x="52" y="264" width="68" height="68" rx="2" fill="#FDBA74" opacity="0.3"/>
+  <rect x="124" y="264" width="68" height="68" rx="2" fill="#F97316" opacity="0.2"/>
+  <rect x="196" y="264" width="68" height="68" rx="2" fill="#EA580C" opacity="0.15"/>
+  <rect x="52" y="336" width="68" height="68" rx="2" fill="#F97316" opacity="0.25"/>
+  <rect x="124" y="336" width="68" height="68" rx="2" fill="#FDBA74" opacity="0.2"/>
+  <rect x="196" y="336" width="68" height="68" rx="2" fill="#FB923C" opacity="0.3"/>
+
+  <!-- Reels icon overlay -->
+  <rect x="199" y="199" width="24" height="16" rx="3" fill="rgba(0,0,0,0.6)"/>
+  <text x="211" y="211" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#fff">Reel</text>
+  <rect x="127" y="271" width="24" height="16" rx="3" fill="rgba(0,0,0,0.6)"/>
+  <text x="139" y="283" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#fff">Reel</text>
+
+  <!-- Nav bar -->
+  <rect x="52" y="432" width="216" height="36" rx="0" fill="#FAFAFA"/>
+  <circle cx="82" cy="450" r="8" fill="none" stroke="#262626" stroke-width="1.5"/>
+  <circle cx="130" cy="450" r="8" fill="none" stroke="#262626" stroke-width="1.5"/>
+  <circle cx="178" cy="450" r="8" fill="none" stroke="#262626" stroke-width="1.5"/>
+  <circle cx="226" cy="450" r="8" fill="none" stroke="#262626" stroke-width="1.5"/>
+
+  <!-- Right: Management Dashboard -->
+  <rect x="310" y="82" width="460" height="400" rx="12" fill="#fff" stroke="#FED7AA" stroke-width="1.5"/>
+
+  <!-- Dashboard Header -->
+  <rect x="310" y="82" width="460" height="42" rx="12" fill="#7C2D12"/>
+  <rect x="310" y="108" width="460" height="16" fill="#7C2D12"/>
+  <text x="540" y="108" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#fff">월간 SNS 운영 대시보드</text>
+
+  <!-- KPI Row -->
+  <rect x="326" y="140" width="105" height="72" rx="8" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="378" y="166" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#F97316">+340%</text>
+  <text x="378" y="186" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#7C2D12">팔로워 증가</text>
+  <text x="378" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#16A34A">&#x25B2; 12%</text>
+
+  <rect x="437" y="140" width="105" height="72" rx="8" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="489" y="166" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#EA580C">4.2%</text>
+  <text x="489" y="186" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#7C2D12">참여율</text>
+  <text x="489" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#16A34A">&#x25B2; 8%</text>
+
+  <rect x="548" y="140" width="105" height="72" rx="8" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="600" y="166" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#C2410C">12만+</text>
+  <text x="600" y="186" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#7C2D12">월 도달</text>
+  <text x="600" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#16A34A">&#x25B2; 23%</text>
+
+  <rect x="659" y="140" width="100" height="72" rx="8" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="709" y="166" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#9A3412">2.8x</text>
+  <text x="709" y="186" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#7C2D12">DM 문의</text>
+  <text x="709" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#16A34A">&#x25B2; 15%</text>
+
+  <!-- Content Calendar -->
+  <text x="336" y="238" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7C2D12" letter-spacing="0.1em">콘텐츠 캘린더</text>
+
+  <!-- Calendar Grid -->
+  <text x="338" y="260" font-family="system-ui, sans-serif" font-size="9" fill="#9CA3AF">월</text>
+  <text x="382" y="260" font-family="system-ui, sans-serif" font-size="9" fill="#9CA3AF">화</text>
+  <text x="426" y="260" font-family="system-ui, sans-serif" font-size="9" fill="#9CA3AF">수</text>
+  <text x="470" y="260" font-family="system-ui, sans-serif" font-size="9" fill="#9CA3AF">목</text>
+  <text x="514" y="260" font-family="system-ui, sans-serif" font-size="9" fill="#9CA3AF">금</text>
+
+  <!-- Week 1 -->
+  <rect x="326" y="268" width="46" height="28" rx="4" fill="#F97316" opacity="0.15"/>
+  <text x="349" y="286" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#F97316">피드</text>
+  <rect x="376" y="268" width="46" height="28" rx="4" fill="#E5E7EB"/>
+  <rect x="426" y="268" width="46" height="28" rx="4" fill="#FB923C" opacity="0.2"/>
+  <text x="449" y="286" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#EA580C">릴스</text>
+  <rect x="476" y="268" width="46" height="28" rx="4" fill="#E5E7EB"/>
+  <rect x="526" y="268" width="46" height="28" rx="4" fill="#F97316" opacity="0.15"/>
+  <text x="549" y="286" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#F97316">스토리</text>
+
+  <!-- Week 2 -->
+  <rect x="326" y="302" width="46" height="28" rx="4" fill="#FB923C" opacity="0.2"/>
+  <text x="349" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#EA580C">릴스</text>
+  <rect x="376" y="302" width="46" height="28" rx="4" fill="#F97316" opacity="0.15"/>
+  <text x="399" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#F97316">피드</text>
+  <rect x="426" y="302" width="46" height="28" rx="4" fill="#E5E7EB"/>
+  <rect x="476" y="302" width="46" height="28" rx="4" fill="#F97316" opacity="0.15"/>
+  <text x="499" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#F97316">카루셀</text>
+  <rect x="526" y="302" width="46" height="28" rx="4" fill="#FB923C" opacity="0.2"/>
+  <text x="549" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#EA580C">릴스</text>
+
+  <!-- Service Tags -->
+  <text x="600" y="238" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7C2D12" letter-spacing="0.1em">운영 범위</text>
+
+  <rect x="590" y="252" width="160" height="26" rx="6" fill="#F97316" opacity="0.1"/>
+  <text x="670" y="269" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#F97316">콘텐츠 기획 · 촬영</text>
+
+  <rect x="590" y="284" width="160" height="26" rx="6" fill="#EA580C" opacity="0.1"/>
+  <text x="670" y="301" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#EA580C">해시태그 전략 수립</text>
+
+  <rect x="590" y="316" width="160" height="26" rx="6" fill="#C2410C" opacity="0.1"/>
+  <text x="670" y="333" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#C2410C">댓글 · DM 관리</text>
+
+  <!-- Bottom Banner -->
+  <rect x="326" y="350" width="430" height="52" rx="8" fill="linear-gradient(90deg,#F97316,#EA580C)" />
+  <rect x="326" y="350" width="430" height="52" rx="8" fill="#F97316"/>
+  <text x="541" y="370" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff" opacity="0.9">주 3~5회 정기 포스팅 · 월간 인사이트 리포트 · 경쟁사 벤치마킹</text>
+  <text x="541" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#fff">SNS를 브랜드의 핵심 매출 채널로 전환합니다</text>
+
+  <!-- Chart Area -->
+  <text x="336" y="426" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#7C2D12">팔로워 성장 추이</text>
+  <!-- Simple line chart -->
+  <polyline points="336,470 380,462 424,455 468,440 512,428 556,415 600,395 644,380 688,368 732,348" fill="none" stroke="#F97316" stroke-width="2"/>
+  <circle cx="336" cy="470" r="3" fill="#F97316"/>
+  <circle cx="468" cy="440" r="3" fill="#F97316"/>
+  <circle cx="600" cy="395" r="3" fill="#F97316"/>
+  <circle cx="732" cy="348" r="3" fill="#F97316"/>
+  <!-- X axis labels -->
+  <text x="336" y="480" font-family="system-ui, sans-serif" font-size="8" fill="#9CA3AF">1월</text>
+  <text x="468" y="480" font-family="system-ui, sans-serif" font-size="8" fill="#9CA3AF">4월</text>
+  <text x="600" y="480" font-family="system-ui, sans-serif" font-size="8" fill="#9CA3AF">7월</text>
+  <text x="724" y="480" font-family="system-ui, sans-serif" font-size="8" fill="#9CA3AF">10월</text>
+</svg>

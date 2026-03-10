@@ -16,7 +16,7 @@ export default function PerformancePage() {
     <div style={{ fontFamily: service.font, minHeight: '100vh' }}>
       <ServiceHero service={service} />
       <ServiceTags tags={service.tags} />
-      <ServiceFeatures features={service.features} media={service.media} accent={service.accent} mediaTitle="5단계 프로세스" />
+      <ServiceFeatures features={service.features} media={service.media} accent={service.accent} mediaTitle="5단계 프로세스" showArrows />
       <ServiceCTA heroTitle={service.heroTitle} accent={service.accent} />
     </div>
   )

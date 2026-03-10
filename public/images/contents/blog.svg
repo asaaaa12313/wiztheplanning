@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EDE9FE"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#3B0764">3개월 블로그 육성 플랜</text>
+  <line x1="340" y1="64" x2="460" y2="64" stroke="#8B5CF6" stroke-width="3"/>
+
+  <!-- 3 Phase Cards -->
+  <!-- Phase 1 -->
+  <rect x="40" y="90" width="230" height="260" rx="12" fill="#fff" stroke="#E9D5FF" stroke-width="1.5"/>
+  <rect x="40" y="90" width="230" height="6" rx="3" fill="#8B5CF6"/>
+  <circle cx="155" cy="130" r="22" fill="#8B5CF6" opacity="0.12"/>
+  <text x="155" y="137" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#8B5CF6">1</text>
+  <text x="155" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#3B0764">기초 구축</text>
+  <text x="155" y="188" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">1개월차</text>
+  <line x1="80" y1="200" x2="230" y2="200" stroke="#E9D5FF" stroke-width="1"/>
+  <circle cx="72" cy="222" r="4" fill="#8B5CF6"/>
+  <text x="84" y="226" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">블로그 스킨 제작</text>
+  <circle cx="72" cy="248" r="4" fill="#8B5CF6"/>
+  <text x="84" y="252" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">레이아웃 최적화</text>
+  <circle cx="72" cy="274" r="4" fill="#8B5CF6"/>
+  <text x="84" y="278" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">필수 콘텐츠 작성</text>
+  <circle cx="72" cy="300" r="4" fill="#8B5CF6"/>
+  <text x="84" y="304" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">기본 SEO 설정</text>
+  <rect x="60" y="324" width="190" height="14" rx="7" fill="#E9D5FF"/>
+  <rect x="60" y="324" width="63" height="14" rx="7" fill="#8B5CF6"/>
+
+  <!-- Arrow 1→2 -->
+  <path d="M275 220 L290 220" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="290,215 300,220 290,225" fill="#8B5CF6"/>
+
+  <!-- Phase 2 -->
+  <rect x="305" y="90" width="230" height="260" rx="12" fill="#fff" stroke="#E9D5FF" stroke-width="1.5"/>
+  <rect x="305" y="90" width="230" height="6" rx="3" fill="#7C3AED"/>
+  <circle cx="420" cy="130" r="22" fill="#7C3AED" opacity="0.12"/>
+  <text x="420" y="137" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#7C3AED">2</text>
+  <text x="420" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#3B0764">확장</text>
+  <text x="420" y="188" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">2개월차</text>
+  <line x1="345" y1="200" x2="495" y2="200" stroke="#E9D5FF" stroke-width="1"/>
+  <circle cx="337" cy="222" r="4" fill="#7C3AED"/>
+  <text x="349" y="226" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">정보성 콘텐츠 확장</text>
+  <circle cx="337" cy="248" r="4" fill="#7C3AED"/>
+  <text x="349" y="252" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">내부 링크 구축</text>
+  <circle cx="337" cy="274" r="4" fill="#7C3AED"/>
+  <text x="349" y="278" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">키워드 최적화</text>
+  <circle cx="337" cy="300" r="4" fill="#7C3AED"/>
+  <text x="349" y="304" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">C-Rank 점수 향상</text>
+  <rect x="325" y="324" width="190" height="14" rx="7" fill="#E9D5FF"/>
+  <rect x="325" y="324" width="126" height="14" rx="7" fill="#7C3AED"/>
+
+  <!-- Arrow 2→3 -->
+  <path d="M540 220 L555 220" stroke="#6D28D9" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="555,215 565,220 555,225" fill="#6D28D9"/>
+
+  <!-- Phase 3 -->
+  <rect x="570" y="90" width="190" height="260" rx="12" fill="#fff" stroke="#E9D5FF" stroke-width="1.5"/>
+  <rect x="570" y="90" width="190" height="6" rx="3" fill="#6D28D9"/>
+  <circle cx="665" cy="130" r="22" fill="#6D28D9" opacity="0.12"/>
+  <text x="665" y="137" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#6D28D9">3</text>
+  <text x="665" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#3B0764">최적화</text>
+  <text x="665" y="188" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">3개월차</text>
+  <line x1="590" y1="200" x2="740" y2="200" stroke="#E9D5FF" stroke-width="1"/>
+  <circle cx="600" cy="222" r="4" fill="#6D28D9"/>
+  <text x="612" y="226" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">상위노출 안정화</text>
+  <circle cx="600" cy="248" r="4" fill="#6D28D9"/>
+  <text x="612" y="252" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">전환율 최적화</text>
+  <circle cx="600" cy="274" r="4" fill="#6D28D9"/>
+  <text x="612" y="278" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">콘텐츠 다각화</text>
+  <circle cx="600" cy="300" r="4" fill="#6D28D9"/>
+  <text x="612" y="304" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">DIA 알고리즘 적합</text>
+  <rect x="590" y="324" width="150" height="14" rx="7" fill="#E9D5FF"/>
+  <rect x="590" y="324" width="150" height="14" rx="7" fill="#6D28D9"/>
+
+  <!-- Bottom Stats -->
+  <rect x="40" y="380" width="170" height="96" rx="10" fill="#fff" stroke="#E9D5FF" stroke-width="1"/>
+  <text x="125" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#8B5CF6">+150%</text>
+  <text x="125" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">방문자 증가율</text>
+
+  <rect x="225" y="380" width="170" height="96" rx="10" fill="#fff" stroke="#E9D5FF" stroke-width="1"/>
+  <text x="310" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#7C3AED">+85%</text>
+  <text x="310" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">체류시간 증가</text>
+
+  <rect x="410" y="380" width="170" height="96" rx="10" fill="#fff" stroke="#E9D5FF" stroke-width="1"/>
+  <text x="495" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#6D28D9">+65%</text>
+  <text x="495" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">전환율 향상</text>
+
+  <rect x="595" y="380" width="170" height="96" rx="10" fill="#fff" stroke="#E9D5FF" stroke-width="1"/>
+  <text x="680" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#8B5CF6">85%</text>
+  <text x="680" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">상위노출 성공률</text>
+</svg>

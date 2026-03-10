@@ -8,9 +8,10 @@ interface ServiceFeaturesProps {
   media?: MediaPartner[]
   accent: string
   mediaTitle?: string
+  showArrows?: boolean
 }
 
-export default function ServiceFeatures({ features, media, accent, mediaTitle }: ServiceFeaturesProps) {
+export default function ServiceFeatures({ features, media, accent, mediaTitle, showArrows }: ServiceFeaturesProps) {
   if (media) {
     return (
       <div>
@@ -62,7 +63,7 @@ export default function ServiceFeatures({ features, media, accent, mediaTitle }:
                   {partner.name}
                 </a>
                 {/* 화살표 (마지막 항목 뒤에도 표시 → 순환) */}
-                {mediaTitle && (
+                {showArrows && (
                   <svg
                     width="24"
                     height="24"
