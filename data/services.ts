@@ -1,6 +1,7 @@
 import type { Service } from '@/types'
 import { mediaPartners } from './media-partners'
 import { performanceSteps } from './performance-steps'
+import { contentsServices } from './contents-services'
 
 export const services: Service[] = [
   {
@@ -96,6 +97,7 @@ export const services: Service[] = [
       { title: '리뷰 관리', description: '네이버/구글 모니터링' },
     ],
     video: '/videos/viral.mp4',
+    media: contentsServices,
   },
   {
     id: 'delivery',

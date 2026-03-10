@@ -16,7 +16,7 @@ export default function ContentsPage() {
     <div style={{ fontFamily: service.font, minHeight: '100vh' }}>
       <ServiceHero service={service} />
       <ServiceTags tags={service.tags} />
-      <ServiceFeatures features={service.features} accent={service.accent} />
+      <ServiceFeatures features={service.features} media={service.media} accent={service.accent} mediaTitle="콘텐츠 마케팅 서비스" />
       <ServiceCTA heroTitle={service.heroTitle} accent={service.accent} />
     </div>
   )
