@@ -255,3 +255,7 @@ export const contentsServices: MediaPartner[] = [
     images: ['/images/contents/review.svg'],
   },
 ]
+
+export const contentsCategories = [
+  { id: 'contents', name: '콘텐츠 마케팅 서비스', partnerIndices: [0, 1, 2, 3] },
+]
