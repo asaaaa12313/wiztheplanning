@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { MediaPartner } from '@/types'
 
 interface MediaPartnerSectionProps {
@@ -174,9 +175,12 @@ export default function MediaPartnerSection({ partner, index }: MediaPartnerSect
           {/* 이미지 슬롯 1 */}
           {p.images?.[0] && (
             <div style={{ marginBottom: 40 }}>
-              <img
+              <Image
                 src={p.images[0]}
                 alt={`${p.name} 매체 이미지`}
+                width={900}
+                height={500}
+                quality={100}
                 style={{
                   width: '100%',
                   height: 'auto',
@@ -395,9 +399,12 @@ export default function MediaPartnerSection({ partner, index }: MediaPartnerSect
           {/* 이미지 슬롯 2 */}
           {p.images?.[1] && (
             <div style={{ marginBottom: 48 }}>
-              <img
+              <Image
                 src={p.images[1]}
                 alt={`${p.name} 상세 이미지`}
+                width={900}
+                height={500}
+                quality={100}
                 style={{
                   width: '100%',
                   height: 'auto',
@@ -572,16 +579,22 @@ export default function MediaPartnerSection({ partner, index }: MediaPartnerSect
               }}
             >
               {p.images?.[2] && (
-                <img
+                <Image
                   src={p.images[2]}
                   alt={`${p.name} 사례 이미지 1`}
+                  width={600}
+                  height={400}
+                  quality={100}
                   style={{ width: '100%', height: 'auto', display: 'block' }}
                 />
               )}
               {p.images?.[3] && (
-                <img
+                <Image
                   src={p.images[3]}
                   alt={`${p.name} 사례 이미지 2`}
+                  width={600}
+                  height={400}
+                  quality={100}
                   style={{ width: '100%', height: 'auto', display: 'block' }}
                 />
               )}

@@ -1,7 +1,8 @@
 import { services } from '@/data/services'
+import { mediaCategories } from '@/data/media-partners'
 import ServiceHero from '@/components/service/ServiceHero'
 import ServiceTags from '@/components/service/ServiceTags'
-import ServiceFeatures from '@/components/service/ServiceFeatures'
+import MediaContentLayout from '@/components/service/MediaContentLayout'
 import ServiceCTA from '@/components/service/ServiceCTA'
 import type { Metadata } from 'next'
 
@@ -15,8 +16,8 @@ export default function MediaPage() {
   return (
     <div style={{ fontFamily: service.font, minHeight: '100vh' }}>
       <ServiceHero service={service} />
-      <ServiceTags tags={service.tags} />
-      <ServiceFeatures features={service.features} media={service.media} accent={service.accent} />
+      <ServiceTags tags={service.tags} title="전체 공식대행사" />
+      <MediaContentLayout media={service.media!} categories={mediaCategories} />
       <ServiceCTA heroTitle={service.heroTitle} accent={service.accent} />
     </div>
   )
