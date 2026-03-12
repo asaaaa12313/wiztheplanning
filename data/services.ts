@@ -112,7 +112,7 @@ export const services: Service[] = [
     subtitle: '배민 · 요기요 · 쿠팡이츠 통합 관리',
     accent: '#EA580C',
     description: '배달 매출을 끝까지 책임.',
-    tags: ['배민', '요기요', '쿠팡이츠', '메뉴최적화'],
+    tags: ['배민', '요기요', '쿠팡이츠', '땡겨요', '메뉴최적화'],
     bgGradient: 'linear-gradient(160deg,#12100a,#1e1a10 60%,#2a2415)',
     decoGradient: 'radial-gradient(ellipse at 60% 40%,rgba(234,88,12,.1),transparent 50%)',
     heroBg: 'linear-gradient(135deg,#12100a,#2a2415)',
