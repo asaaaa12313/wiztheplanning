@@ -12,6 +12,7 @@ interface ExternalLink {
   label: string
   href: string
   sublabel?: string
+  color?: string
 }
 
 interface MediaCategorySidebarProps {
@@ -43,27 +44,31 @@ export default function MediaCategorySidebar({ categories, media, activeIndex, o
           rel="noopener noreferrer"
           style={{
             display: 'flex',
-            alignItems: 'baseline',
-            gap: 8,
-            padding: '18px 24px',
-            fontSize: 22,
-            fontWeight: 800,
-            color: '#111',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '14px 20px',
+            margin: '0 12px 12px',
+            fontSize: 15,
+            fontWeight: 700,
+            color: '#fff',
             textDecoration: 'none',
-            borderBottom: '2px solid #222',
-            marginBottom: 8,
+            background: externalLink.color || '#DC2626',
+            borderRadius: 10,
           }}
         >
-          {externalLink.label}
-          {externalLink.sublabel && (
-            <span style={{ fontSize: 12, fontWeight: 400, color: '#888' }}>{externalLink.sublabel}</span>
-          )}
+          <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            {externalLink.label}
+            {externalLink.sublabel && (
+              <span style={{ fontSize: 11, fontWeight: 400, opacity: 0.85 }}>{externalLink.sublabel}</span>
+            )}
+          </span>
+          <span style={{ fontSize: 16 }}>→</span>
         </a>
       )}
 
       {/* 외부 링크 (복수) */}
       {externalLinks && externalLinks.length > 0 && (
-        <div style={{ borderBottom: '2px solid #222', marginBottom: 8 }}>
+        <div style={{ padding: '0 12px', marginBottom: 12, display: 'flex', flexDirection: 'column', gap: 8 }}>
           {externalLinks.map((link, i) => (
             <a
               key={i}
@@ -72,20 +77,24 @@ export default function MediaCategorySidebar({ categories, media, activeIndex, o
               rel="noopener noreferrer"
               style={{
                 display: 'flex',
-                alignItems: 'baseline',
-                gap: 8,
-                padding: '14px 24px',
-                fontSize: 18,
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                padding: '14px 20px',
+                fontSize: 15,
                 fontWeight: 700,
-                color: '#111',
+                color: '#fff',
                 textDecoration: 'none',
-                borderBottom: i < externalLinks.length - 1 ? '1px solid #eee' : 'none',
+                background: link.color || '#F59E0B',
+                borderRadius: 10,
               }}
             >
-              {link.label}
-              {link.sublabel && (
-                <span style={{ fontSize: 11, fontWeight: 400, color: '#888' }}>{link.sublabel}</span>
-              )}
+              <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                {link.label}
+                {link.sublabel && (
+                  <span style={{ fontSize: 11, fontWeight: 400, opacity: 0.85 }}>{link.sublabel}</span>
+                )}
+              </span>
+              <span style={{ fontSize: 16 }}>→</span>
             </a>
           ))}
         </div>

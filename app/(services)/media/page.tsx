@@ -20,7 +20,7 @@ export default function MediaPage() {
       <MediaContentLayout
         media={service.media!}
         categories={mediaCategories}
-        externalLink={{ label: '미디어 지도 리스트', href: 'https://focusmedia.vercel.app/', sublabel: '바로가기' }}
+        externalLink={{ label: '미디어 지도 리스트', href: 'https://focusmedia.vercel.app/', sublabel: '바로가기', color: '#DC2626' }}
       />
       <ServiceCTA heroTitle={service.heroTitle} accent={service.accent} />
     </div>

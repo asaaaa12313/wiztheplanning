@@ -21,8 +21,8 @@ export default function AutomationPage() {
         media={service.media!}
         categories={automationCategories}
         externalLinks={[
-          { label: '위플', href: 'https://www.wizpp.com/', sublabel: '소상공인 AI 마케팅' },
-          { label: '위플학원', href: 'https://www.wizhw.com/', sublabel: '학원 AI 마케팅' },
+          { label: '위플', href: 'https://www.wizpp.com/', sublabel: '소상공인 AI 마케팅', color: '#F59E0B' },
+          { label: '위플학원', href: 'https://www.wizhw.com/', sublabel: '학원 AI 마케팅', color: '#0EA5E9' },
         ]}
       />
       <ServiceCTA heroTitle={service.heroTitle} accent={service.accent} />

@@ -15,6 +15,7 @@ interface ExternalLink {
   label: string
   href: string
   sublabel?: string
+  color?: string
 }
 
 interface MediaContentLayoutProps {
