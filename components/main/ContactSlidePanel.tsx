@@ -342,7 +342,7 @@ export default function ContactSlidePanel({ open, industry, onClose }: ContactSl
             </a>
           </div>
           <a
-            href="https://pf.kakao.com/_wiztheplanning"
+            href="http://pf.kakao.com/_QUTxcb/chat"
             target="_blank"
             rel="noopener noreferrer"
             style={{

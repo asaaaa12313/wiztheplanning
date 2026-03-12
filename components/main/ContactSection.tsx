@@ -105,7 +105,7 @@ export default function ContactSection() {
               </p>
             </div>
             <a
-              href="https://pf.kakao.com/_wiztheplanning"
+              href="http://pf.kakao.com/_QUTxcb/chat"
               target="_blank"
               rel="noopener noreferrer"
               style={{
