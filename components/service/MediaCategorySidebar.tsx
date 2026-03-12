@@ -8,14 +8,21 @@ interface Category {
   partnerIndices: number[]
 }
 
+interface ExternalLink {
+  label: string
+  href: string
+  sublabel?: string
+}
+
 interface MediaCategorySidebarProps {
   categories: Category[]
   media: MediaPartner[]
   activeIndex: number
   onSelect: (index: number) => void
+  externalLink?: ExternalLink
 }
 
-export default function MediaCategorySidebar({ categories, media, activeIndex, onSelect }: MediaCategorySidebarProps) {
+export default function MediaCategorySidebar({ categories, media, activeIndex, onSelect, externalLink }: MediaCategorySidebarProps) {
   return (
     <nav
       style={{
@@ -27,27 +34,31 @@ export default function MediaCategorySidebar({ categories, media, activeIndex, o
         padding: '24px 0',
       }}
     >
-      {/* 미디어 지도 리스트 링크 */}
-      <a
-        href="https://focusmedia.vercel.app/"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{
-          display: 'flex',
-          alignItems: 'baseline',
-          gap: 8,
-          padding: '18px 24px',
-          fontSize: 22,
-          fontWeight: 800,
-          color: '#111',
-          textDecoration: 'none',
-          borderBottom: '2px solid #222',
-          marginBottom: 8,
-        }}
-      >
-        미디어 지도 리스트
-        <span style={{ fontSize: 12, fontWeight: 400, color: '#888' }}>바로가기</span>
-      </a>
+      {/* 외부 링크 (선택) */}
+      {externalLink && (
+        <a
+          href={externalLink.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'flex',
+            alignItems: 'baseline',
+            gap: 8,
+            padding: '18px 24px',
+            fontSize: 22,
+            fontWeight: 800,
+            color: '#111',
+            textDecoration: 'none',
+            borderBottom: '2px solid #222',
+            marginBottom: 8,
+          }}
+        >
+          {externalLink.label}
+          {externalLink.sublabel && (
+            <span style={{ fontSize: 12, fontWeight: 400, color: '#888' }}>{externalLink.sublabel}</span>
+          )}
+        </a>
+      )}
 
       {/* 카테고리 그룹 */}
       {categories.map((cat) => (

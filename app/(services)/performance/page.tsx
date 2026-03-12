@@ -1,7 +1,8 @@
 import { services } from '@/data/services'
+import { performanceCategories } from '@/data/performance-steps'
 import ServiceHero from '@/components/service/ServiceHero'
 import ServiceTags from '@/components/service/ServiceTags'
-import ServiceFeatures from '@/components/service/ServiceFeatures'
+import MediaContentLayout from '@/components/service/MediaContentLayout'
 import ServiceCTA from '@/components/service/ServiceCTA'
 import type { Metadata } from 'next'
 
@@ -15,8 +16,8 @@ export default function PerformancePage() {
   return (
     <div style={{ fontFamily: service.font, minHeight: '100vh' }}>
       <ServiceHero service={service} />
-      <ServiceTags tags={service.tags} />
-      <ServiceFeatures features={service.features} media={service.media} accent={service.accent} mediaTitle="5단계 프로세스" showArrows />
+      <ServiceTags tags={service.tags} title="5단계 프로세스" />
+      <MediaContentLayout media={service.media!} categories={performanceCategories} />
       <ServiceCTA heroTitle={service.heroTitle} accent={service.accent} />
     </div>
   )

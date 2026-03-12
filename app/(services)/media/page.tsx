@@ -17,7 +17,11 @@ export default function MediaPage() {
     <div style={{ fontFamily: service.font, minHeight: '100vh' }}>
       <ServiceHero service={service} />
       <ServiceTags tags={service.tags} title="전체 공식대행사" />
-      <MediaContentLayout media={service.media!} categories={mediaCategories} />
+      <MediaContentLayout
+        media={service.media!}
+        categories={mediaCategories}
+        externalLink={{ label: '미디어 지도 리스트', href: 'https://focusmedia.vercel.app/', sublabel: '바로가기' }}
+      />
       <ServiceCTA heroTitle={service.heroTitle} accent={service.accent} />
     </div>
   )

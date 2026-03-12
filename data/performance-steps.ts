@@ -308,3 +308,7 @@ export const performanceSteps: MediaPartner[] = [
     images: ['/images/performance/5.png'],
   },
 ]
+
+export const performanceCategories = [
+  { id: 'process', name: '5단계 프로세스', partnerIndices: [0, 1, 2, 3, 4] },
+]
