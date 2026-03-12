@@ -2,6 +2,9 @@ import type { Service } from '@/types'
 import { mediaPartners } from './media-partners'
 import { performanceSteps } from './performance-steps'
 import { contentsServices } from './contents-services'
+import { deliveryServices } from './delivery-services'
+import { targetfitServices } from './targetfit-services'
+import { productionServices } from './production-services'
 
 export const services: Service[] = [
   {
@@ -121,6 +124,7 @@ export const services: Service[] = [
       { title: '리뷰 관리', description: '별점 관리' },
     ],
     video: '/videos/order.mp4',
+    media: deliveryServices,
   },
   {
     id: 'targetfit',
@@ -144,6 +148,7 @@ export const services: Service[] = [
       { title: '리타깃팅', description: '잠재고객 재노출' },
     ],
     video: '/videos/targetfit.mp4',
+    media: targetfitServices,
   },
   {
     id: 'production',
@@ -167,5 +172,6 @@ export const services: Service[] = [
       { title: '명함/배너', description: '브랜드 제작물' },
     ],
     video: '/videos/studio.mp4',
+    media: productionServices,
   },
 ]

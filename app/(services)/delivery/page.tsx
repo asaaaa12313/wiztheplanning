@@ -1,7 +1,8 @@
 import { services } from '@/data/services'
+import { deliveryCategories } from '@/data/delivery-services'
 import ServiceHero from '@/components/service/ServiceHero'
 import ServiceTags from '@/components/service/ServiceTags'
-import ServiceFeatures from '@/components/service/ServiceFeatures'
+import MediaContentLayout from '@/components/service/MediaContentLayout'
 import ServiceCTA from '@/components/service/ServiceCTA'
 import type { Metadata } from 'next'
 
@@ -15,8 +16,8 @@ export default function DeliveryPage() {
   return (
     <div style={{ fontFamily: service.font, minHeight: '100vh' }}>
       <ServiceHero service={service} />
-      <ServiceTags tags={service.tags} />
-      <ServiceFeatures features={service.features} accent={service.accent} />
+      <ServiceTags tags={service.tags} title="배달 통합 관리 서비스" />
+      <MediaContentLayout media={service.media!} categories={deliveryCategories} />
       <ServiceCTA heroTitle={service.heroTitle} accent={service.accent} />
     </div>
   )
