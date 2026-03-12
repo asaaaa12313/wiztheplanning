@@ -46,23 +46,18 @@ export default function MediaCategorySidebar({ categories, media, activeIndex, o
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            padding: '14px 20px',
+            padding: '16px 20px',
             margin: '0 12px 12px',
-            fontSize: 15,
-            fontWeight: 700,
+            fontSize: 18,
+            fontWeight: 800,
             color: '#fff',
             textDecoration: 'none',
             background: externalLink.color || '#DC2626',
             borderRadius: 10,
           }}
         >
-          <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-            {externalLink.label}
-            {externalLink.sublabel && (
-              <span style={{ fontSize: 11, fontWeight: 400, opacity: 0.85 }}>{externalLink.sublabel}</span>
-            )}
-          </span>
-          <span style={{ fontSize: 16 }}>→</span>
+          {externalLink.label}
+          <span style={{ fontSize: 13, fontWeight: 600 }}>바로가기</span>
         </a>
       )}
 
@@ -79,22 +74,17 @@ export default function MediaCategorySidebar({ categories, media, activeIndex, o
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
-                padding: '14px 20px',
-                fontSize: 15,
-                fontWeight: 700,
+                padding: '16px 20px',
+                fontSize: 18,
+                fontWeight: 800,
                 color: '#fff',
                 textDecoration: 'none',
                 background: link.color || '#F59E0B',
                 borderRadius: 10,
               }}
             >
-              <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                {link.label}
-                {link.sublabel && (
-                  <span style={{ fontSize: 11, fontWeight: 400, opacity: 0.85 }}>{link.sublabel}</span>
-                )}
-              </span>
-              <span style={{ fontSize: 16 }}>→</span>
+              {link.label}
+              <span style={{ fontSize: 13, fontWeight: 600 }}>바로가기</span>
             </a>
           ))}
         </div>
