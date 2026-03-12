@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#F0F9FF"/>
+
+  <!-- Title -->
+  <text x="400" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#0C4A6E">콘텐츠 캘린더 &amp; 마케팅 인사이트</text>
+  <rect x="340" y="58" width="120" height="3" fill="#0EA5E9"/>
+
+  <!-- Left: Calendar Mock -->
+  <rect x="40" y="80" width="360" height="280" fill="#fff" stroke="#BAE6FD" stroke-width="1.5"/>
+  <rect x="40" y="80" width="360" height="40" fill="#0EA5E9"/>
+  <text x="220" y="106" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#fff">3월 콘텐츠 캘린더</text>
+
+  <!-- Calendar Grid Header -->
+  <text x="68" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#6B7280">일</text>
+  <text x="119" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#6B7280">월</text>
+  <text x="170" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#6B7280">화</text>
+  <text x="221" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#6B7280">수</text>
+  <text x="272" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#6B7280">목</text>
+  <text x="323" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#6B7280">금</text>
+  <text x="374" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#6B7280">토</text>
+
+  <!-- Week 1 -->
+  <text x="68" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">-</text>
+  <text x="119" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">1</text>
+  <rect x="106" y="174" width="26" height="8" fill="#0EA5E9" opacity="0.2"/>
+  <text x="170" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">2</text>
+  <text x="221" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">3</text>
+  <rect x="208" y="174" width="26" height="8" fill="#E11D48" opacity="0.2"/>
+  <text x="272" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">4</text>
+  <text x="323" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">5</text>
+  <rect x="310" y="174" width="26" height="8" fill="#0EA5E9" opacity="0.2"/>
+  <text x="374" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">6</text>
+
+  <!-- Week 2 -->
+  <text x="68" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">7</text>
+  <text x="119" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">8</text>
+  <rect x="106" y="209" width="26" height="8" fill="#0EA5E9" opacity="0.2"/>
+  <text x="170" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">9</text>
+  <text x="221" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">10</text>
+  <rect x="208" y="209" width="26" height="8" fill="#E11D48" opacity="0.2"/>
+  <text x="272" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">11</text>
+  <text x="323" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">12</text>
+  <rect x="310" y="209" width="26" height="8" fill="#0EA5E9" opacity="0.2"/>
+  <text x="374" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">13</text>
+
+  <!-- Week 3 -->
+  <text x="68" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">14</text>
+  <text x="119" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">15</text>
+  <rect x="106" y="244" width="26" height="8" fill="#0EA5E9" opacity="0.2"/>
+  <text x="170" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">16</text>
+  <text x="221" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">17</text>
+  <rect x="208" y="244" width="26" height="8" fill="#8B5CF6" opacity="0.2"/>
+  <text x="272" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">18</text>
+  <text x="323" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">19</text>
+  <rect x="310" y="244" width="26" height="8" fill="#0EA5E9" opacity="0.2"/>
+  <text x="374" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">20</text>
+
+  <!-- Week 4 -->
+  <text x="68" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">21</text>
+  <text x="119" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">22</text>
+  <rect x="106" y="279" width="26" height="8" fill="#0EA5E9" opacity="0.2"/>
+  <text x="170" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">23</text>
+  <text x="221" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">24</text>
+  <rect x="208" y="279" width="26" height="8" fill="#E11D48" opacity="0.2"/>
+  <text x="272" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">25</text>
+  <text x="323" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">26</text>
+  <rect x="310" y="279" width="26" height="8" fill="#0EA5E9" opacity="0.2"/>
+  <text x="374" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">27</text>
+
+  <!-- Week 5 -->
+  <text x="68" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">28</text>
+  <text x="119" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">29</text>
+  <rect x="106" y="314" width="26" height="8" fill="#0EA5E9" opacity="0.2"/>
+  <text x="170" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">30</text>
+  <text x="221" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#374151">31</text>
+  <rect x="208" y="314" width="26" height="8" fill="#8B5CF6" opacity="0.2"/>
+
+  <!-- Legend -->
+  <rect x="55" y="336" width="10" height="10" fill="#0EA5E9" opacity="0.3"/>
+  <text x="72" y="345" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">블로그</text>
+  <rect x="115" y="336" width="10" height="10" fill="#E11D48" opacity="0.3"/>
+  <text x="132" y="345" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">인스타</text>
+  <rect x="175" y="336" width="10" height="10" fill="#8B5CF6" opacity="0.3"/>
+  <text x="192" y="345" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">당근</text>
+
+  <!-- Right: Insight Dashboard -->
+  <rect x="420" y="80" width="340" height="130" fill="#fff" stroke="#BAE6FD" stroke-width="1.5"/>
+  <rect x="420" y="80" width="340" height="5" fill="#0EA5E9"/>
+  <text x="590" y="108" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0C4A6E">키워드 순위 추적</text>
+  <line x1="440" y1="118" x2="740" y2="118" stroke="#BAE6FD" stroke-width="1"/>
+
+  <!-- Rank Items -->
+  <text x="450" y="140" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#374151">강남 맛집</text>
+  <text x="700" y="140" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#059669">3위 ↑</text>
+  <rect x="450" y="146" width="250" height="4" fill="#E0F2FE"/>
+  <rect x="450" y="146" width="200" height="4" fill="#0EA5E9"/>
+
+  <text x="450" y="168" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#374151">강남역 카페</text>
+  <text x="700" y="168" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#F59E0B">7위 →</text>
+  <rect x="450" y="174" width="250" height="4" fill="#E0F2FE"/>
+  <rect x="450" y="174" width="140" height="4" fill="#0EA5E9"/>
+
+  <text x="450" y="196" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#374151">디저트 카페 추천</text>
+  <text x="700" y="196" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#059669">5위 ↑</text>
+  <rect x="450" y="202" width="250" height="4" fill="#E0F2FE"/>
+  <rect x="450" y="202" width="170" height="4" fill="#0EA5E9"/>
+
+  <!-- 경쟁사 분석 -->
+  <rect x="420" y="225" width="340" height="135" fill="#fff" stroke="#BAE6FD" stroke-width="1.5"/>
+  <rect x="420" y="225" width="340" height="5" fill="#0284C7"/>
+  <text x="590" y="253" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0C4A6E">경쟁사 분석 리포트</text>
+  <line x1="440" y1="263" x2="740" y2="263" stroke="#BAE6FD" stroke-width="1"/>
+
+  <rect x="440" y="275" width="5" height="5" fill="#0284C7"/>
+  <text x="454" y="282" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">경쟁 매장 콘텐츠 동향 분석</text>
+  <rect x="440" y="297" width="5" height="5" fill="#0284C7"/>
+  <text x="454" y="304" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">차별화 포인트 자동 도출</text>
+  <rect x="440" y="319" width="5" height="5" fill="#0284C7"/>
+  <text x="454" y="326" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">벤치마킹 전략 제안</text>
+  <rect x="440" y="341" width="5" height="5" fill="#0284C7"/>
+  <text x="454" y="348" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">AI 기반 다음 달 공략 전략</text>
+
+  <!-- Bottom Stats -->
+  <rect x="40" y="380" width="175" height="96" fill="#fff" stroke="#BAE6FD" stroke-width="1"/>
+  <text x="128" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#0EA5E9">30일</text>
+  <text x="128" y="442" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">자동 기획</text>
+
+  <rect x="230" y="380" width="175" height="96" fill="#fff" stroke="#BAE6FD" stroke-width="1"/>
+  <text x="318" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#0284C7">매일</text>
+  <text x="318" y="442" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">순위 자동 추적</text>
+
+  <rect x="420" y="380" width="170" height="96" fill="#fff" stroke="#BAE6FD" stroke-width="1"/>
+  <text x="505" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#0369A1">AI</text>
+  <text x="505" y="442" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">전략 자동 제안</text>
+
+  <rect x="605" y="380" width="155" height="96" fill="#fff" stroke="#BAE6FD" stroke-width="1"/>
+  <text x="683" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#075985">90%</text>
+  <text x="683" y="442" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">기획 시간 절감</text>
+</svg>

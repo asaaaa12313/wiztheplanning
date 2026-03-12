@@ -5,6 +5,7 @@ import { contentsServices } from './contents-services'
 import { deliveryServices } from './delivery-services'
 import { targetfitServices } from './targetfit-services'
 import { productionServices } from './production-services'
+import { automationServices } from './automation-services'
 
 export const services: Service[] = [
   {
@@ -14,21 +15,22 @@ export const services: Service[] = [
     bigText: 'AUTOMATION',
     heroTitle: '자동화 마케팅',
     font: 'var(--font-do-hyeon), sans-serif',
-    subtitle: 'AI 자동화 · 통합 마케팅 · 데이터 드리븐',
+    subtitle: 'AI 블로그 · AI 인스타그램 · AI 이미지 · 콘텐츠 캘린더',
     accent: '#F59E0B',
-    description: 'AI 기반 자동화로 마케팅 효율을 극대화합니다.',
-    tags: ['AI 자동화', '통합 관리', '데이터 분석', '효율 극대화'],
+    description: 'AI가 콘텐츠를 만들고, 올리고, 분석까지. 복잡한 마케팅을 가장 단순하게.',
+    tags: ['AI 블로그', 'AI 인스타그램', 'AI 이미지 생성', '콘텐츠 캘린더', '순위 추적'],
     bgGradient: 'linear-gradient(160deg,#1a1400,#2d2200 60%,#3d3000)',
     decoGradient: 'radial-gradient(ellipse at 50% 50%,rgba(245,158,11,.12),transparent 50%)',
     heroBg: 'linear-gradient(135deg,#1a1400,#3d3000)',
     heroDeco: 'radial-gradient(ellipse at 50% 50%,rgba(245,158,11,.15),transparent 60%)',
     features: [
-      { title: 'AI 자동화', description: '마케팅 프로세스 자동화' },
-      { title: '통합 관리', description: '채널 통합 대시보드' },
-      { title: '데이터 분석', description: '실시간 성과 분석' },
-      { title: '최적화 엔진', description: '자동 예산 배분' },
+      { title: 'AI 블로그', description: '블로그 원고 자동 생성' },
+      { title: 'AI 인스타', description: '콘텐츠 자동 생성·업로드' },
+      { title: 'AI 이미지', description: '촬영 없이 이미지 생성' },
+      { title: '캘린더·분석', description: '30일 기획·순위 추적' },
     ],
     video: '/videos/automation.mp4',
+    media: automationServices,
   },
   {
     id: 'media',

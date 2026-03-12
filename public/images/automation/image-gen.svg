@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#F5F3FF"/>
+
+  <!-- Title -->
+  <text x="400" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#3B0764">AI 이미지 생성 스타일 가이드</text>
+  <rect x="340" y="58" width="120" height="3" fill="#8B5CF6"/>
+
+  <!-- Style Cards Row 1 -->
+  <!-- 실사 -->
+  <rect x="50" y="82" width="160" height="175" fill="#fff" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="50" y="82" width="160" height="90" fill="#8B5CF6" opacity="0.08"/>
+  <rect x="95" y="107" width="70" height="40" fill="#8B5CF6" opacity="0.15"/>
+  <text x="130" y="132" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#8B5CF6">실사</text>
+  <text x="130" y="195" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#3B0764">실사 스타일</text>
+  <text x="130" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">사진 수준의 리얼리티</text>
+  <text x="130" y="233" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">음식·제품·인테리어</text>
+
+  <!-- 웹툰 -->
+  <rect x="225" y="82" width="160" height="175" fill="#fff" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="225" y="82" width="160" height="90" fill="#7C3AED" opacity="0.08"/>
+  <rect x="270" y="107" width="70" height="40" fill="#7C3AED" opacity="0.15"/>
+  <text x="305" y="132" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#7C3AED">웹툰</text>
+  <text x="305" y="195" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#3B0764">웹툰 스타일</text>
+  <text x="305" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">친근한 일러스트</text>
+  <text x="305" y="233" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">SNS 콘텐츠에 최적</text>
+
+  <!-- 교육 -->
+  <rect x="400" y="82" width="160" height="175" fill="#fff" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="400" y="82" width="160" height="90" fill="#6D28D9" opacity="0.08"/>
+  <rect x="445" y="107" width="70" height="40" fill="#6D28D9" opacity="0.15"/>
+  <text x="480" y="132" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#6D28D9">교육</text>
+  <text x="480" y="195" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#3B0764">교육 스타일</text>
+  <text x="480" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">학원·강좌 콘텐츠</text>
+  <text x="480" y="233" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">수업 안내·커리큘럼</text>
+
+  <!-- 포스터 -->
+  <rect x="575" y="82" width="175" height="175" fill="#fff" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="575" y="82" width="175" height="90" fill="#5B21B6" opacity="0.08"/>
+  <rect x="628" y="107" width="70" height="40" fill="#5B21B6" opacity="0.15"/>
+  <text x="663" y="132" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#5B21B6">포스터</text>
+  <text x="663" y="195" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#3B0764">포스터 스타일</text>
+  <text x="663" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">이벤트·프로모션</text>
+  <text x="663" y="233" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">시즌 메뉴·할인 안내</text>
+
+  <!-- 채널별 사이즈 최적화 -->
+  <text x="400" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#3B0764">채널별 자동 사이즈 최적화</text>
+  <line x1="280" y1="300" x2="520" y2="300" stroke="#DDD6FE" stroke-width="1"/>
+
+  <!-- 블로그 -->
+  <rect x="50" y="320" width="160" height="150" fill="#fff" stroke="#DDD6FE" stroke-width="1"/>
+  <rect x="78" y="340" width="104" height="58" fill="#8B5CF6" opacity="0.06" stroke="#DDD6FE" stroke-width="1"/>
+  <text x="130" y="375" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8B5CF6">16 : 9</text>
+  <text x="130" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#3B0764">블로그</text>
+  <text x="130" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">가로형 이미지</text>
+  <text x="130" y="456" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">약 20장 자동 삽입</text>
+
+  <!-- 인스타 피드 -->
+  <rect x="225" y="320" width="160" height="150" fill="#fff" stroke="#DDD6FE" stroke-width="1"/>
+  <rect x="271" y="338" width="68" height="68" fill="#7C3AED" opacity="0.06" stroke="#DDD6FE" stroke-width="1"/>
+  <text x="305" y="377" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#7C3AED">1 : 1</text>
+  <text x="305" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#3B0764">인스타 피드</text>
+  <text x="305" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">정방형 이미지</text>
+  <text x="305" y="456" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">1080 × 1080px</text>
+
+  <!-- 인스타 스토리/릴스 -->
+  <rect x="400" y="320" width="160" height="150" fill="#fff" stroke="#DDD6FE" stroke-width="1"/>
+  <rect x="457" y="335" width="46" height="74" fill="#6D28D9" opacity="0.06" stroke="#DDD6FE" stroke-width="1"/>
+  <text x="480" y="377" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6D28D9">9 : 16</text>
+  <text x="480" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#3B0764">스토리·릴스</text>
+  <text x="480" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">세로형 이미지</text>
+  <text x="480" y="456" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">1080 × 1920px</text>
+
+  <!-- 당근마켓 -->
+  <rect x="575" y="320" width="175" height="150" fill="#fff" stroke="#DDD6FE" stroke-width="1"/>
+  <rect x="623" y="340" width="80" height="58" fill="#5B21B6" opacity="0.06" stroke="#DDD6FE" stroke-width="1"/>
+  <text x="663" y="375" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#5B21B6">자동</text>
+  <text x="663" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#3B0764">당근마켓</text>
+  <text x="663" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">썸네일 이미지</text>
+  <text x="663" y="456" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">최적 사이즈 자동</text>
+</svg>

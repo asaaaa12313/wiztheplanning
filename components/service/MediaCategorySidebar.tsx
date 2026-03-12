@@ -20,9 +20,10 @@ interface MediaCategorySidebarProps {
   activeIndex: number
   onSelect: (index: number) => void
   externalLink?: ExternalLink
+  externalLinks?: ExternalLink[]
 }
 
-export default function MediaCategorySidebar({ categories, media, activeIndex, onSelect, externalLink }: MediaCategorySidebarProps) {
+export default function MediaCategorySidebar({ categories, media, activeIndex, onSelect, externalLink, externalLinks }: MediaCategorySidebarProps) {
   return (
     <nav
       style={{
@@ -34,8 +35,8 @@ export default function MediaCategorySidebar({ categories, media, activeIndex, o
         padding: '24px 0',
       }}
     >
-      {/* 외부 링크 (선택) */}
-      {externalLink && (
+      {/* 외부 링크 (단일) */}
+      {externalLink && !externalLinks && (
         <a
           href={externalLink.href}
           target="_blank"
@@ -58,6 +59,36 @@ export default function MediaCategorySidebar({ categories, media, activeIndex, o
             <span style={{ fontSize: 12, fontWeight: 400, color: '#888' }}>{externalLink.sublabel}</span>
           )}
         </a>
+      )}
+
+      {/* 외부 링크 (복수) */}
+      {externalLinks && externalLinks.length > 0 && (
+        <div style={{ borderBottom: '2px solid #222', marginBottom: 8 }}>
+          {externalLinks.map((link, i) => (
+            <a
+              key={i}
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'flex',
+                alignItems: 'baseline',
+                gap: 8,
+                padding: '14px 24px',
+                fontSize: 18,
+                fontWeight: 700,
+                color: '#111',
+                textDecoration: 'none',
+                borderBottom: i < externalLinks.length - 1 ? '1px solid #eee' : 'none',
+              }}
+            >
+              {link.label}
+              {link.sublabel && (
+                <span style={{ fontSize: 11, fontWeight: 400, color: '#888' }}>{link.sublabel}</span>
+              )}
+            </a>
+          ))}
+        </div>
       )}
 
       {/* 카테고리 그룹 */}

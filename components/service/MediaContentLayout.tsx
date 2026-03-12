@@ -21,9 +21,10 @@ interface MediaContentLayoutProps {
   media: MediaPartner[]
   categories: Category[]
   externalLink?: ExternalLink
+  externalLinks?: ExternalLink[]
 }
 
-export default function MediaContentLayout({ media, categories, externalLink }: MediaContentLayoutProps) {
+export default function MediaContentLayout({ media, categories, externalLink, externalLinks }: MediaContentLayoutProps) {
   const [activeIndex, setActiveIndex] = useState(0)
   const [isMobile, setIsMobile] = useState(false)
 
@@ -98,6 +99,7 @@ export default function MediaContentLayout({ media, categories, externalLink }: 
             activeIndex={activeIndex}
             onSelect={handleSelect}
             externalLink={externalLink}
+            externalLinks={externalLinks}
           />
         )}
 

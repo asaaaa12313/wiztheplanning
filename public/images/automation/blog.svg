@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#FFFBEB"/>
+
+  <!-- Title -->
+  <text x="400" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#78350F">AI 블로그 자동화 프로세스</text>
+  <rect x="340" y="58" width="120" height="3" fill="#F59E0B"/>
+
+  <!-- Step 1: 매장 등록 -->
+  <rect x="40" y="85" width="170" height="220" fill="#fff" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="40" y="85" width="170" height="6" fill="#F59E0B"/>
+  <rect x="103" y="103" width="44" height="44" fill="#F59E0B" opacity="0.12"/>
+  <text x="125" y="132" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#F59E0B">1</text>
+  <text x="125" y="164" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#78350F">매장 등록</text>
+  <text x="125" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">1분 완료</text>
+  <line x1="65" y1="194" x2="185" y2="194" stroke="#FDE68A" stroke-width="1"/>
+  <rect x="60" y="210" width="6" height="6" fill="#F59E0B"/>
+  <text x="76" y="218" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">네이버 플레이스 URL</text>
+  <rect x="60" y="234" width="6" height="6" fill="#F59E0B"/>
+  <text x="76" y="242" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">비즈니스 타입 설정</text>
+  <rect x="60" y="258" width="6" height="6" fill="#F59E0B"/>
+  <text x="76" y="266" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">타겟 오디언스 설정</text>
+
+  <!-- Arrow 1→2 -->
+  <path d="M215 195 L230 195" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="230,190 240,195 230,200" fill="#F59E0B"/>
+
+  <!-- Step 2: AI 학습 -->
+  <rect x="245" y="85" width="170" height="220" fill="#fff" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="245" y="85" width="170" height="6" fill="#D97706"/>
+  <rect x="308" y="103" width="44" height="44" fill="#D97706" opacity="0.12"/>
+  <text x="330" y="132" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#D97706">2</text>
+  <text x="330" y="164" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#78350F">AI 자동 학습</text>
+  <text x="330" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">자동 분석</text>
+  <line x1="270" y1="194" x2="390" y2="194" stroke="#FDE68A" stroke-width="1"/>
+  <rect x="265" y="210" width="6" height="6" fill="#D97706"/>
+  <text x="281" y="218" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">메뉴·서비스 학습</text>
+  <rect x="265" y="234" width="6" height="6" fill="#D97706"/>
+  <text x="281" y="242" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">리뷰·분위기 분석</text>
+  <rect x="265" y="258" width="6" height="6" fill="#D97706"/>
+  <text x="281" y="266" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">경쟁사 벤치마킹</text>
+
+  <!-- Arrow 2→3 -->
+  <path d="M420 195 L435 195" stroke="#D97706" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="435,190 445,195 435,200" fill="#D97706"/>
+
+  <!-- Step 3: AI 생성 -->
+  <rect x="450" y="85" width="170" height="220" fill="#fff" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="450" y="85" width="170" height="6" fill="#B45309"/>
+  <rect x="513" y="103" width="44" height="44" fill="#B45309" opacity="0.12"/>
+  <text x="535" y="132" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#B45309">3</text>
+  <text x="535" y="164" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#78350F">AI 원고 생성</text>
+  <text x="535" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">GPT-4 · Claude</text>
+  <line x1="475" y1="194" x2="595" y2="194" stroke="#FDE68A" stroke-width="1"/>
+  <rect x="470" y="210" width="6" height="6" fill="#B45309"/>
+  <text x="486" y="218" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">SEO 최적화 원고</text>
+  <rect x="470" y="234" width="6" height="6" fill="#B45309"/>
+  <text x="486" y="242" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">키워드 5~6회 삽입</text>
+  <rect x="470" y="258" width="6" height="6" fill="#B45309"/>
+  <text x="486" y="266" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">1,500~2,000자</text>
+
+  <!-- Arrow 3→4 -->
+  <path d="M625 195 L640 195" stroke="#B45309" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="640,190 650,195 640,200" fill="#B45309"/>
+
+  <!-- Step 4: 발행 -->
+  <rect x="655" y="85" width="110" height="220" fill="#fff" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="655" y="85" width="110" height="6" fill="#92400E"/>
+  <rect x="688" y="103" width="44" height="44" fill="#92400E" opacity="0.12"/>
+  <text x="710" y="132" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#92400E">4</text>
+  <text x="710" y="164" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#78350F">발행</text>
+  <text x="710" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">블로그 게시</text>
+  <line x1="670" y1="194" x2="750" y2="194" stroke="#FDE68A" stroke-width="1"/>
+  <rect x="668" y="210" width="6" height="6" fill="#92400E"/>
+  <text x="684" y="218" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">바로 붙여넣기</text>
+  <rect x="668" y="234" width="6" height="6" fill="#92400E"/>
+  <text x="684" y="242" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">이미지 포함</text>
+
+  <!-- Bottom Stats -->
+  <rect x="40" y="340" width="175" height="130" fill="#fff" stroke="#FDE68A" stroke-width="1"/>
+  <text x="128" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" font-weight="800" fill="#F59E0B">30일</text>
+  <text x="128" y="414" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">콘텐츠 자동 기획</text>
+  <text x="128" y="434" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">클릭 한 번으로</text>
+
+  <rect x="230" y="340" width="175" height="130" fill="#fff" stroke="#FDE68A" stroke-width="1"/>
+  <text x="318" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" font-weight="800" fill="#D97706">10배</text>
+  <text x="318" y="414" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">콘텐츠 생산량</text>
+  <text x="318" y="434" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">AI 자동화 효과</text>
+
+  <rect x="420" y="340" width="175" height="130" fill="#fff" stroke="#FDE68A" stroke-width="1"/>
+  <text x="508" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" font-weight="800" fill="#B45309">SEO</text>
+  <text x="508" y="414" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">자동 키워드 최적화</text>
+  <text x="508" y="434" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">C-Rank · DIA 대응</text>
+
+  <rect x="610" y="340" width="155" height="130" fill="#fff" stroke="#FDE68A" stroke-width="1"/>
+  <text x="688" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" font-weight="800" fill="#92400E">1분</text>
+  <text x="688" y="414" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">매장 등록 완료</text>
+  <text x="688" y="434" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">네이버 플레이스 연동</text>
+</svg>
