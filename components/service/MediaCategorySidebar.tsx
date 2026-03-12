@@ -12,19 +12,16 @@ interface MediaCategorySidebarProps {
   categories: Category[]
   media: MediaPartner[]
   activeIndex: number
+  onSelect: (index: number) => void
 }
 
-export default function MediaCategorySidebar({ categories, media, activeIndex }: MediaCategorySidebarProps) {
-  const scrollTo = (index: number) => {
-    document.getElementById(`media-${index}`)?.scrollIntoView({ behavior: 'smooth' })
-  }
-
+export default function MediaCategorySidebar({ categories, media, activeIndex, onSelect }: MediaCategorySidebarProps) {
   return (
     <nav
       style={{
         position: 'sticky',
         top: 100,
-        width: 240,
+        width: 280,
         flexShrink: 0,
         alignSelf: 'flex-start',
         padding: '24px 0',
@@ -36,9 +33,11 @@ export default function MediaCategorySidebar({ categories, media, activeIndex }:
         target="_blank"
         rel="noopener noreferrer"
         style={{
-          display: 'block',
-          padding: '16px 20px',
-          fontSize: 15,
+          display: 'flex',
+          alignItems: 'baseline',
+          gap: 8,
+          padding: '18px 24px',
+          fontSize: 22,
           fontWeight: 800,
           color: '#111',
           textDecoration: 'none',
@@ -46,7 +45,8 @@ export default function MediaCategorySidebar({ categories, media, activeIndex }:
           marginBottom: 8,
         }}
       >
-        📍 미디어 지도 리스트
+        미디어 지도 리스트
+        <span style={{ fontSize: 12, fontWeight: 400, color: '#888' }}>바로가기</span>
       </a>
 
       {/* 카테고리 그룹 */}
@@ -55,8 +55,8 @@ export default function MediaCategorySidebar({ categories, media, activeIndex }:
           {/* 카테고리 헤더 */}
           <div
             style={{
-              padding: '14px 20px 6px',
-              fontSize: 11,
+              padding: '18px 24px 8px',
+              fontSize: 16,
               fontWeight: 700,
               color: '#999',
               letterSpacing: '0.08em',
@@ -72,13 +72,13 @@ export default function MediaCategorySidebar({ categories, media, activeIndex }:
             return (
               <button
                 key={pi}
-                onClick={() => scrollTo(pi)}
+                onClick={() => onSelect(pi)}
                 style={{
                   display: 'block',
                   width: '100%',
                   textAlign: 'left',
-                  padding: '11px 20px',
-                  fontSize: 14,
+                  padding: '14px 24px',
+                  fontSize: 18,
                   fontWeight: isActive ? 700 : 400,
                   color: isActive ? partner.color : '#333',
                   background: isActive ? (partner.colorLight || '#f8f8f8') : 'transparent',

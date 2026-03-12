@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect } from 'react'
 import type { MediaPartner } from '@/types'
 import MediaCategorySidebar from './MediaCategorySidebar'
 import MediaPartnerSection from './MediaPartnerSection'
@@ -19,9 +19,7 @@ interface MediaContentLayoutProps {
 export default function MediaContentLayout({ media, categories }: MediaContentLayoutProps) {
   const [activeIndex, setActiveIndex] = useState(0)
   const [isMobile, setIsMobile] = useState(false)
-  const observerRef = useRef<IntersectionObserver | null>(null)
 
-  // 반응형 감지
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 768)
     check()
@@ -29,41 +27,10 @@ export default function MediaContentLayout({ media, categories }: MediaContentLa
     return () => window.removeEventListener('resize', check)
   }, [])
 
-  // IntersectionObserver로 활성 섹션 추적
-  useEffect(() => {
-    observerRef.current?.disconnect()
-
-    const visibleSet = new Set<number>()
-
-    observerRef.current = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const id = entry.target.id // "media-0", "media-1", ...
-          const index = parseInt(id.replace('media-', ''), 10)
-          if (entry.isIntersecting) {
-            visibleSet.add(index)
-          } else {
-            visibleSet.delete(index)
-          }
-        })
-        if (visibleSet.size > 0) {
-          setActiveIndex(Math.min(...visibleSet))
-        }
-      },
-      { threshold: 0.15, rootMargin: '-100px 0px -40% 0px' },
-    )
-
-    media.forEach((_, i) => {
-      const el = document.getElementById(`media-${i}`)
-      if (el) observerRef.current!.observe(el)
-    })
-
-    return () => observerRef.current?.disconnect()
-  }, [media])
-
-  const scrollTo = useCallback((index: number) => {
-    document.getElementById(`media-${index}`)?.scrollIntoView({ behavior: 'smooth' })
-  }, [])
+  const handleSelect = (index: number) => {
+    setActiveIndex(index)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   return (
     <div>
@@ -86,7 +53,7 @@ export default function MediaContentLayout({ media, categories }: MediaContentLa
           {media.map((partner, i) => (
             <button
               key={i}
-              onClick={() => scrollTo(i)}
+              onClick={() => handleSelect(i)}
               style={{
                 flexShrink: 0,
                 padding: '6px 14px',
@@ -112,8 +79,6 @@ export default function MediaContentLayout({ media, categories }: MediaContentLa
       <div
         style={{
           display: 'flex',
-          maxWidth: 1200,
-          margin: '0 auto',
         }}
       >
         {/* 왼쪽 사이드바 (데스크톱만) */}
@@ -122,14 +87,13 @@ export default function MediaContentLayout({ media, categories }: MediaContentLa
             categories={categories}
             media={media}
             activeIndex={activeIndex}
+            onSelect={handleSelect}
           />
         )}
 
-        {/* 오른쪽 콘텐츠 */}
+        {/* 오른쪽 콘텐츠: 선택된 매체만 표시 */}
         <div style={{ flex: 1, minWidth: 0 }}>
-          {media.map((partner, i) => (
-            <MediaPartnerSection key={i} partner={partner} index={i} />
-          ))}
+          <MediaPartnerSection partner={media[activeIndex]} index={activeIndex} />
         </div>
       </div>
     </div>
