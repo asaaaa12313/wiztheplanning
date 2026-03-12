@@ -153,9 +153,9 @@ export const services: Service[] = [
   {
     id: 'production',
     label: 'PRODUCTION',
-    name: '촬영\n제작',
+    name: '촬영\n디자인제작',
     bigText: 'STUDIO',
-    heroTitle: '촬영 / 제작',
+    heroTitle: '촬영 / 디자인제작',
     font: 'var(--font-do-hyeon), sans-serif',
     subtitle: '매장 사진 · 숏폼 영상 · 메뉴판',
     accent: '#059669',

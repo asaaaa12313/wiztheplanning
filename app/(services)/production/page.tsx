@@ -7,7 +7,7 @@ import ServiceCTA from '@/components/service/ServiceCTA'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '촬영/제작 | 위즈더플래닝',
+  title: '촬영/디자인제작 | 위즈더플래닝',
   description: '전문가의 손길로 만드는 콘텐츠. 매장 촬영, 숏폼 영상, 메뉴판.',
 }
 
@@ -16,7 +16,7 @@ export default function ProductionPage() {
   return (
     <div style={{ fontFamily: service.font, minHeight: '100vh' }}>
       <ServiceHero service={service} />
-      <ServiceTags tags={service.tags} title="촬영/제작 서비스" />
+      <ServiceTags tags={service.tags} title="촬영/디자인제작 서비스" />
       <MediaContentLayout media={service.media!} categories={productionCategories} />
       <ServiceCTA heroTitle={service.heroTitle} accent={service.accent} />
     </div>
