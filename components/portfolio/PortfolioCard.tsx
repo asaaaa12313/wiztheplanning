@@ -23,7 +23,7 @@ export default function PortfolioCard({ item, onClick }: Props) {
       onMouseLeave={() => setHovered(false)}
       style={{
         position: 'relative',
-        borderRadius: 12,
+        borderRadius: 0,
         overflow: 'hidden',
         cursor: 'pointer',
         background: '#f5f5f5',
@@ -88,7 +88,7 @@ export default function PortfolioCard({ item, onClick }: Props) {
             padding: 16,
           }}
         >
-          <span style={{ color: '#fff', fontSize: 12, fontWeight: 600 }}>
+          <span style={{ color: '#fff', fontSize: 14, fontWeight: 600 }}>
             {hasImages && item.images.length > 1
               ? `이미지 ${item.images.length}장 보기`
               : hasLink
@@ -106,10 +106,10 @@ export default function PortfolioCard({ item, onClick }: Props) {
               right: 8,
               background: 'rgba(0,0,0,0.6)',
               color: '#fff',
-              fontSize: 11,
+              fontSize: 12,
               fontWeight: 600,
               padding: '3px 8px',
-              borderRadius: 12,
+              borderRadius: 0,
             }}
           >
             +{item.images.length}
@@ -124,7 +124,7 @@ export default function PortfolioCard({ item, onClick }: Props) {
               top: 8,
               left: 8,
               background: 'rgba(0,0,0,0.6)',
-              borderRadius: '50%',
+              borderRadius: 0,
               width: 28,
               height: 28,
               display: 'flex',
@@ -145,7 +145,7 @@ export default function PortfolioCard({ item, onClick }: Props) {
       <div style={{ padding: '12px 14px' }}>
         <p
           style={{
-            fontSize: 14,
+            fontSize: 16,
             fontWeight: 700,
             color: '#111',
             marginBottom: 6,
@@ -159,12 +159,12 @@ export default function PortfolioCard({ item, onClick }: Props) {
         <span
           style={{
             display: 'inline-block',
-            fontSize: 11,
+            fontSize: 13,
             fontWeight: 600,
             color: color,
             background: `${color}15`,
             padding: '2px 8px',
-            borderRadius: 10,
+            borderRadius: 0,
           }}
         >
           {item.category}

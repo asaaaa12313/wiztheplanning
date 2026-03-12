@@ -59,7 +59,7 @@ export default function PortfolioLightbox({ item, onClose }: Props) {
           right: 20,
           background: 'rgba(255,255,255,0.1)',
           border: 'none',
-          borderRadius: '50%',
+          borderRadius: 0,
           width: 44,
           height: 44,
           cursor: 'pointer',
@@ -87,9 +87,9 @@ export default function PortfolioLightbox({ item, onClose }: Props) {
           zIndex: 10,
         }}
       >
-        <span style={{ color: '#fff', fontSize: 16, fontWeight: 700 }}>{item.name}</span>
+        <span style={{ color: '#fff', fontSize: 20, fontWeight: 700 }}>{item.name}</span>
         {hasMultiple && (
-          <span style={{ color: 'rgba(255,255,255,0.5)', fontSize: 13 }}>
+          <span style={{ color: 'rgba(255,255,255,0.5)', fontSize: 15 }}>
             {index + 1} / {item.images.length}
           </span>
         )}
@@ -109,8 +109,8 @@ export default function PortfolioLightbox({ item, onClose }: Props) {
             background: '#fff',
             color: '#111',
             padding: '10px 20px',
-            borderRadius: 8,
-            fontSize: 13,
+            borderRadius: 0,
+            fontSize: 15,
             fontWeight: 700,
             textDecoration: 'none',
             zIndex: 10,
@@ -163,7 +163,7 @@ export default function PortfolioLightbox({ item, onClose }: Props) {
               transform: 'translateY(-50%)',
               background: 'rgba(255,255,255,0.1)',
               border: 'none',
-              borderRadius: '50%',
+              borderRadius: 0,
               width: 48,
               height: 48,
               cursor: 'pointer',
@@ -185,7 +185,7 @@ export default function PortfolioLightbox({ item, onClose }: Props) {
               transform: 'translateY(-50%)',
               background: 'rgba(255,255,255,0.1)',
               border: 'none',
-              borderRadius: '50%',
+              borderRadius: 0,
               width: 48,
               height: 48,
               cursor: 'pointer',
@@ -221,7 +221,7 @@ export default function PortfolioLightbox({ item, onClose }: Props) {
               style={{
                 width: i === index ? 24 : 8,
                 height: 8,
-                borderRadius: 4,
+                borderRadius: 0,
                 background: i === index ? '#fff' : 'rgba(255,255,255,0.3)',
                 border: 'none',
                 cursor: 'pointer',
