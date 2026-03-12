@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#ECFDF5"/>
+
+  <!-- Title -->
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#064E3B">전문 사진 촬영 워크플로우</text>
+  <rect x="290" y="62" width="220" height="3" fill="#059669"/>
+
+  <!-- Step 1: 일정 조율 -->
+  <rect x="40" y="90" width="170" height="260" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="40" y="90" width="170" height="6" fill="#059669"/>
+  <rect x="101" y="110" width="48" height="48" fill="#059669" opacity="0.12"/>
+  <text x="125" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#059669">STEP</text>
+  <text x="125" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#059669">01</text>
+  <text x="125" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#064E3B">일정 조율</text>
+  <line x1="65" y1="190" x2="185" y2="190" stroke="#A7F3D0" stroke-width="1"/>
+  <rect x="60" y="204" width="6" height="6" fill="#059669"/>
+  <text x="76" y="212" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">촬영 목적 파악</text>
+  <rect x="60" y="228" width="6" height="6" fill="#059669"/>
+  <text x="76" y="236" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">컨셉 사전 협의</text>
+  <rect x="60" y="252" width="6" height="6" fill="#059669"/>
+  <text x="76" y="260" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">일정/장소 확정</text>
+  <rect x="60" y="276" width="6" height="6" fill="#059669"/>
+  <text x="76" y="284" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">장비 세팅 준비</text>
+  <rect x="60" y="310" width="130" height="24" fill="#ECFDF5" rx="4"/>
+  <text x="125" y="326" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#059669">촬영 준비 완료</text>
+
+  <!-- Arrow -->
+  <path d="M215 220 L235 220" stroke="#059669" stroke-width="2"/>
+  <polygon points="235,215 245,220 235,225" fill="#059669"/>
+
+  <!-- Step 2: 현장 촬영 -->
+  <rect x="250" y="90" width="170" height="260" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="250" y="90" width="170" height="6" fill="#047857"/>
+  <rect x="311" y="110" width="48" height="48" fill="#047857" opacity="0.12"/>
+  <text x="335" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#047857">STEP</text>
+  <text x="335" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#047857">02</text>
+  <text x="335" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#064E3B">현장 촬영</text>
+  <line x1="275" y1="190" x2="395" y2="190" stroke="#A7F3D0" stroke-width="1"/>
+  <rect x="270" y="204" width="6" height="6" fill="#047857"/>
+  <text x="286" y="212" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">촬영감독 디렉팅</text>
+  <rect x="270" y="228" width="6" height="6" fill="#047857"/>
+  <text x="286" y="236" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">전문 조명 세팅</text>
+  <rect x="270" y="252" width="6" height="6" fill="#047857"/>
+  <text x="286" y="260" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">다각도 촬영</text>
+  <rect x="270" y="276" width="6" height="6" fill="#047857"/>
+  <text x="286" y="284" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">현장 즉시 확인</text>
+  <rect x="270" y="310" width="130" height="24" fill="#ECFDF5" rx="4"/>
+  <text x="335" y="326" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#047857">촬영 완료</text>
+
+  <!-- Arrow -->
+  <path d="M425 220 L445 220" stroke="#047857" stroke-width="2"/>
+  <polygon points="445,215 455,220 445,225" fill="#047857"/>
+
+  <!-- Step 3: 보정/전달 -->
+  <rect x="460" y="90" width="170" height="260" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="460" y="90" width="170" height="6" fill="#065F46"/>
+  <rect x="521" y="110" width="48" height="48" fill="#065F46" opacity="0.12"/>
+  <text x="545" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#065F46">STEP</text>
+  <text x="545" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#065F46">03</text>
+  <text x="545" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#064E3B">보정 · 전달</text>
+  <line x1="485" y1="190" x2="605" y2="190" stroke="#A7F3D0" stroke-width="1"/>
+  <rect x="480" y="204" width="6" height="6" fill="#065F46"/>
+  <text x="496" y="212" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">색감 보정</text>
+  <rect x="480" y="228" width="6" height="6" fill="#065F46"/>
+  <text x="496" y="236" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">리터칭 작업</text>
+  <rect x="480" y="252" width="6" height="6" fill="#065F46"/>
+  <text x="496" y="260" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">고해상도 원본</text>
+  <rect x="480" y="276" width="6" height="6" fill="#065F46"/>
+  <text x="496" y="284" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">플랫폼별 리사이즈</text>
+  <rect x="480" y="310" width="130" height="24" fill="#ECFDF5" rx="4"/>
+  <text x="545" y="326" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#065F46">결과물 전달</text>
+
+  <!-- Result Card -->
+  <rect x="650" y="90" width="120" height="260" fill="#059669" rx="6"/>
+  <text x="710" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="rgba(255,255,255,0.7)" letter-spacing="0.1em">RESULT</text>
+  <text x="710" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="36" font-weight="800" fill="#fff">30+</text>
+  <text x="710" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">보정 컷 전달</text>
+  <line x1="670" y1="228" x2="750" y2="228" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="710" y="255" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">촬영감독 디렉팅</text>
+  <text x="710" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">전문 조명 포함</text>
+  <text x="710" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">플랫폼 최적화</text>
+  <text x="710" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">당일 촬영 가능</text>
+
+  <!-- Bottom Stats -->
+  <rect x="40" y="375" width="720" height="3" fill="#A7F3D0"/>
+
+  <rect x="40" y="400" width="170" height="80" fill="#fff" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="125" y="432" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#059669">촬영감독</text>
+  <text x="125" y="458" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">전문 디렉팅 포함</text>
+
+  <rect x="225" y="400" width="170" height="80" fill="#fff" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="310" y="432" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#047857">30컷+</text>
+  <text x="310" y="458" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">보정본 제공</text>
+
+  <rect x="410" y="400" width="170" height="80" fill="#fff" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="495" y="432" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#065F46">2~3일</text>
+  <text x="495" y="458" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">보정본 전달</text>
+
+  <rect x="595" y="400" width="170" height="80" fill="#fff" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="680" y="432" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#064E3B">All-in-One</text>
+  <text x="680" y="458" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">촬영+보정+세팅</text>
+</svg>

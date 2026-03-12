@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#FFF7ED"/>
+
+  <!-- Title -->
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#7C2D12">4대 플랫폼 통합 관리 시스템</text>
+  <rect x="310" y="62" width="180" height="3" fill="#EA580C"/>
+
+  <!-- Platform Cards -->
+  <rect x="40" y="90" width="160" height="120" fill="#fff" stroke="#FDBA74" stroke-width="1.5"/>
+  <rect x="40" y="90" width="160" height="5" fill="#EA580C"/>
+  <text x="120" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#EA580C">배민</text>
+  <text x="120" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">배달의민족</text>
+  <text x="120" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">울트라콜 · 오픈리스트</text>
+  <rect x="60" y="185" width="120" height="14" fill="#FDBA74" opacity="0.3"/>
+  <rect x="60" y="185" width="96" height="14" fill="#EA580C" opacity="0.7"/>
+
+  <rect x="220" y="90" width="160" height="120" fill="#fff" stroke="#FDBA74" stroke-width="1.5"/>
+  <rect x="220" y="90" width="160" height="5" fill="#C2410C"/>
+  <text x="300" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#C2410C">쿠팡이츠</text>
+  <text x="300" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">Coupang Eats</text>
+  <text x="300" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">광고 · 프로모션</text>
+  <rect x="240" y="185" width="120" height="14" fill="#FDBA74" opacity="0.3"/>
+  <rect x="240" y="185" width="84" height="14" fill="#C2410C" opacity="0.7"/>
+
+  <rect x="400" y="90" width="160" height="120" fill="#fff" stroke="#FDBA74" stroke-width="1.5"/>
+  <rect x="400" y="90" width="160" height="5" fill="#D97706"/>
+  <text x="480" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#D97706">요기요</text>
+  <text x="480" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">Yogiyo</text>
+  <text x="480" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">광고 · 쿠폰</text>
+  <rect x="420" y="185" width="120" height="14" fill="#FDBA74" opacity="0.3"/>
+  <rect x="420" y="185" width="72" height="14" fill="#D97706" opacity="0.7"/>
+
+  <rect x="580" y="90" width="180" height="120" fill="#fff" stroke="#FDBA74" stroke-width="1.5"/>
+  <rect x="580" y="90" width="180" height="5" fill="#B45309"/>
+  <text x="670" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#B45309">땡겨요</text>
+  <text x="670" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">신한은행 배달앱</text>
+  <text x="670" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">입점 · 세팅</text>
+  <rect x="600" y="185" width="140" height="14" fill="#FDBA74" opacity="0.3"/>
+  <rect x="600" y="185" width="56" height="14" fill="#B45309" opacity="0.7"/>
+
+  <!-- Arrows to center -->
+  <path d="M120 215 L400 260" stroke="#EA580C" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <path d="M300 215 L400 260" stroke="#EA580C" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <path d="M480 215 L400 260" stroke="#EA580C" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <path d="M670 215 L400 260" stroke="#EA580C" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+
+  <!-- Central Hub -->
+  <rect x="280" y="245" width="240" height="60" fill="#EA580C" rx="6"/>
+  <text x="400" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#fff">통합 관리 대시보드</text>
+  <text x="400" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">실시간 데이터 모니터링</text>
+
+  <!-- Arrow down -->
+  <path d="M400 310 L400 340" stroke="#EA580C" stroke-width="2"/>
+  <polygon points="395,340 400,350 405,340" fill="#EA580C"/>
+
+  <!-- Bottom Stats -->
+  <rect x="40" y="360" width="170" height="120" fill="#fff" stroke="#FDBA74" stroke-width="1"/>
+  <text x="125" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" font-weight="800" fill="#EA580C">6년</text>
+  <text x="125" y="425" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">운영 노하우</text>
+  <text x="125" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">전문 배달 마케팅</text>
+
+  <rect x="225" y="360" width="170" height="120" fill="#fff" stroke="#FDBA74" stroke-width="1"/>
+  <text x="310" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" font-weight="800" fill="#C2410C">7,000+</text>
+  <text x="310" y="425" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">매장 최적화</text>
+  <text x="310" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">누적 관리 매장</text>
+
+  <rect x="410" y="360" width="170" height="120" fill="#fff" stroke="#FDBA74" stroke-width="1"/>
+  <text x="495" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" font-weight="800" fill="#D97706">4대</text>
+  <text x="495" y="425" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">플랫폼 통합</text>
+  <text x="495" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">배민·쿠팡·요기요·땡겨요</text>
+
+  <rect x="595" y="360" width="170" height="120" fill="#fff" stroke="#FDBA74" stroke-width="1"/>
+  <text x="680" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" font-weight="800" fill="#B45309">24h</text>
+  <text x="680" y="425" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">실시간 모니터링</text>
+  <text x="680" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">주문·매출·리뷰</text>
+</svg>

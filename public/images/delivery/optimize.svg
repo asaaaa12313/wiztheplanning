@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#ECFDF5"/>
+
+  <!-- Title -->
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#064E3B">배달 플랫폼 최적화 프로세스</text>
+  <rect x="300" y="62" width="200" height="3" fill="#059669"/>
+
+  <!-- Funnel Steps -->
+  <rect x="40" y="90" width="170" height="200" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="40" y="90" width="170" height="6" fill="#059669"/>
+  <rect x="101" y="108" width="48" height="48" fill="#059669" opacity="0.12"/>
+  <text x="125" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#059669">1</text>
+  <text x="125" y="174" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#064E3B">메뉴 최적화</text>
+  <line x1="70" y1="186" x2="180" y2="186" stroke="#A7F3D0" stroke-width="1"/>
+  <rect x="62" y="200" width="6" height="6" fill="#059669"/>
+  <text x="78" y="208" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">카테고리 구성</text>
+  <rect x="62" y="222" width="6" height="6" fill="#059669"/>
+  <text x="78" y="230" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">세트 메뉴 설계</text>
+  <rect x="62" y="244" width="6" height="6" fill="#059669"/>
+  <text x="78" y="252" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">가격 포인트 설정</text>
+  <rect x="62" y="266" width="6" height="6" fill="#059669"/>
+  <text x="78" y="274" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">메뉴 설명 최적화</text>
+
+  <!-- Arrow -->
+  <path d="M215 190 L230 190" stroke="#059669" stroke-width="2"/>
+  <polygon points="230,185 240,190 230,195" fill="#059669"/>
+
+  <rect x="245" y="90" width="170" height="200" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="245" y="90" width="170" height="6" fill="#047857"/>
+  <rect x="306" y="108" width="48" height="48" fill="#047857" opacity="0.12"/>
+  <text x="330" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#047857">2</text>
+  <text x="330" y="174" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#064E3B">깃발 전략</text>
+  <line x1="275" y1="186" x2="385" y2="186" stroke="#A7F3D0" stroke-width="1"/>
+  <rect x="267" y="200" width="6" height="6" fill="#047857"/>
+  <text x="283" y="208" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">상권 데이터 분석</text>
+  <rect x="267" y="222" width="6" height="6" fill="#047857"/>
+  <text x="283" y="230" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">최적 노출 지역</text>
+  <rect x="267" y="244" width="6" height="6" fill="#047857"/>
+  <text x="283" y="252" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">시간대별 전략</text>
+  <rect x="267" y="266" width="6" height="6" fill="#047857"/>
+  <text x="283" y="274" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">요일별 최적화</text>
+
+  <!-- Arrow -->
+  <path d="M420 190 L435 190" stroke="#047857" stroke-width="2"/>
+  <polygon points="435,185 445,190 435,195" fill="#047857"/>
+
+  <rect x="450" y="90" width="170" height="200" fill="#fff" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="450" y="90" width="170" height="6" fill="#065F46"/>
+  <rect x="511" y="108" width="48" height="48" fill="#065F46" opacity="0.12"/>
+  <text x="535" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#065F46">3</text>
+  <text x="535" y="174" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#064E3B">광고 대행</text>
+  <line x1="480" y1="186" x2="590" y2="186" stroke="#A7F3D0" stroke-width="1"/>
+  <rect x="472" y="200" width="6" height="6" fill="#065F46"/>
+  <text x="488" y="208" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">울트라콜 운영</text>
+  <rect x="472" y="222" width="6" height="6" fill="#065F46"/>
+  <text x="488" y="230" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">오픈리스트 관리</text>
+  <rect x="472" y="244" width="6" height="6" fill="#065F46"/>
+  <text x="488" y="252" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">쿠팡이츠 광고</text>
+  <rect x="472" y="266" width="6" height="6" fill="#065F46"/>
+  <text x="488" y="274" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">ROAS 최적화</text>
+
+  <!-- Arrow -->
+  <path d="M625 190 L640 190" stroke="#065F46" stroke-width="2"/>
+  <polygon points="640,185 650,190 640,195" fill="#065F46"/>
+
+  <!-- Result -->
+  <rect x="655" y="100" width="110" height="180" fill="#059669" rx="6"/>
+  <text x="710" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="rgba(255,255,255,0.7)" letter-spacing="0.1em">RESULT</text>
+  <text x="710" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#fff">매출</text>
+  <text x="710" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#fff">극대화</text>
+  <text x="710" y="255" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.7)">데이터 기반</text>
+  <text x="710" y="268" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.7)">전략적 운영</text>
+
+  <!-- Bottom Stats -->
+  <rect x="40" y="320" width="720" height="3" fill="#A7F3D0"/>
+
+  <rect x="40" y="345" width="170" height="135" fill="#fff" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="125" y="385" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#059669" letter-spacing="0.1em">메뉴 최적화</text>
+  <text x="125" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="26" font-weight="800" fill="#064E3B">객단가</text>
+  <text x="125" y="442" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">세트 구성으로 향상</text>
+  <rect x="65" y="458" width="120" height="6" fill="#D1FAE5"/>
+  <rect x="65" y="458" width="96" height="6" fill="#059669"/>
+
+  <rect x="225" y="345" width="170" height="135" fill="#fff" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="310" y="385" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#047857" letter-spacing="0.1em">깃발 전략</text>
+  <text x="310" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="26" font-weight="800" fill="#064E3B">노출↑</text>
+  <text x="310" y="442" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">최적 지역 선정</text>
+  <rect x="250" y="458" width="120" height="6" fill="#D1FAE5"/>
+  <rect x="250" y="458" width="84" height="6" fill="#047857"/>
+
+  <rect x="410" y="345" width="170" height="135" fill="#fff" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="495" y="385" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#065F46" letter-spacing="0.1em">광고 효율</text>
+  <text x="495" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="26" font-weight="800" fill="#064E3B">ROAS↑</text>
+  <text x="495" y="442" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">광고비 대비 매출</text>
+  <rect x="435" y="458" width="120" height="6" fill="#D1FAE5"/>
+  <rect x="435" y="458" width="108" height="6" fill="#065F46"/>
+
+  <rect x="595" y="345" width="170" height="135" fill="#fff" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="680" y="385" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#059669" letter-spacing="0.1em">성과 리포트</text>
+  <text x="680" y="418" text-anchor="middle" font-family="system-ui, sans-serif" font-size="26" font-weight="800" fill="#064E3B">주간</text>
+  <text x="680" y="442" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">정기 분석 보고</text>
+  <rect x="620" y="458" width="120" height="6" fill="#D1FAE5"/>
+  <rect x="620" y="458" width="120" height="6" fill="#059669"/>
+</svg>

@@ -53,6 +53,7 @@ export const targetfitServices: MediaPartner[] = [
       '연령·성별·지역·관심사 등 다차원 조건 조합',
       '외식·뷰티·병원·학원 등 업종별 맞춤 전략',
     ],
+    images: ['/images/targetfit/targeting.svg'],
   },
   {
     name: 'RCS 메시지 발송',
@@ -112,6 +113,7 @@ export const targetfitServices: MediaPartner[] = [
       'CTA 버튼으로 전화·길찾기·예약·홈페이지 즉시 연결',
       '최소 2,000건, 250원/건부터 합리적 가격',
     ],
+    images: ['/images/targetfit/rcs.svg'],
   },
   {
     name: '캠페인 설계 / 콘텐츠 검수',
@@ -169,6 +171,7 @@ export const targetfitServices: MediaPartner[] = [
       '통신사 심의 기준에 맞는 콘텐츠 가이드 제공',
       '타겟별 맞춤 메시지 설계로 전환율 극대화',
     ],
+    images: ['/images/targetfit/campaign.svg'],
   },
   {
     name: '성과 분석 / 결과 리포트',
@@ -224,6 +227,7 @@ export const targetfitServices: MediaPartner[] = [
       '투자 대비 수익률(ROI) 명확한 산출',
       '다음 캠페인 개선을 위한 데이터 기반 인사이트',
     ],
+    images: ['/images/targetfit/report.svg'],
   },
 ]
 

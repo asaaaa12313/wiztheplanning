@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#F5F3FF"/>
+
+  <!-- Title -->
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#3B0764">사진 · 영상 전문 보정</text>
+  <rect x="290" y="62" width="220" height="3" fill="#8B5CF6"/>
+
+  <!-- Before Card -->
+  <rect x="40" y="90" width="320" height="250" fill="#fff" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="40" y="90" width="320" height="40" fill="#E5E7EB"/>
+  <text x="200" y="116" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#6B7280">BEFORE</text>
+
+  <rect x="60" y="148" width="280" height="80" fill="#F3F4F6" rx="6"/>
+  <text x="200" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#9CA3AF">원본 사진/영상</text>
+  <text x="200" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#D1D5DB">색감 미조정 · 노출 불균형</text>
+
+  <rect x="60" y="244" width="130" height="28" fill="#FEF2F2" rx="4"/>
+  <text x="125" y="263" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#DC2626">색감 불일치</text>
+
+  <rect x="200" y="244" width="140" height="28" fill="#FEF2F2" rx="4"/>
+  <text x="270" y="263" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#DC2626">노출 과다/부족</text>
+
+  <rect x="60" y="280" width="130" height="28" fill="#FEF2F2" rx="4"/>
+  <text x="125" y="299" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#DC2626">잡티/결점</text>
+
+  <rect x="200" y="280" width="140" height="28" fill="#FEF2F2" rx="4"/>
+  <text x="270" y="299" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#DC2626">구도 미세 틀어짐</text>
+
+  <!-- Arrow -->
+  <path d="M365 215 L395 215" stroke="#8B5CF6" stroke-width="3"/>
+  <polygon points="395,208 410,215 395,222" fill="#8B5CF6"/>
+
+  <!-- After Card -->
+  <rect x="420" y="90" width="340" height="250" fill="#fff" stroke="#C084FC" stroke-width="2"/>
+  <rect x="420" y="90" width="340" height="40" fill="#8B5CF6"/>
+  <text x="590" y="116" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#fff">AFTER</text>
+
+  <rect x="440" y="148" width="300" height="80" fill="#F5F3FF" rx="6" stroke="#DDD6FE" stroke-width="1"/>
+  <text x="590" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#7C3AED" font-weight="600">전문 보정 완료</text>
+  <text x="590" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">색감 통일 · 완벽한 노출 · 피부 리터칭</text>
+
+  <rect x="440" y="244" width="140" height="28" fill="#ECFDF5" rx="4"/>
+  <text x="510" y="263" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#059669">색감 보정 완료</text>
+
+  <rect x="590" y="244" width="150" height="28" fill="#ECFDF5" rx="4"/>
+  <text x="665" y="263" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#059669">노출 최적화</text>
+
+  <rect x="440" y="280" width="140" height="28" fill="#ECFDF5" rx="4"/>
+  <text x="510" y="299" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#059669">피부 리터칭</text>
+
+  <rect x="590" y="280" width="150" height="28" fill="#ECFDF5" rx="4"/>
+  <text x="665" y="299" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#059669">구도 미세 보정</text>
+
+  <!-- Bottom: 보정 항목 리스트 -->
+  <rect x="40" y="360" width="720" height="3" fill="#DDD6FE"/>
+  <text x="400" y="394" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#3B0764">전문 보정 서비스 항목</text>
+
+  <rect x="40" y="410" width="140" height="72" fill="#fff" stroke="#DDD6FE" stroke-width="1"/>
+  <rect x="40" y="410" width="140" height="4" fill="#8B5CF6"/>
+  <text x="110" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#8B5CF6">색보정</text>
+  <text x="110" y="462" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">컬러그레이딩/톤통일</text>
+
+  <rect x="195" y="410" width="140" height="72" fill="#fff" stroke="#DDD6FE" stroke-width="1"/>
+  <rect x="195" y="410" width="140" height="4" fill="#7C3AED"/>
+  <text x="265" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#7C3AED">리터칭</text>
+  <text x="265" y="462" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">피부보정/잡티제거</text>
+
+  <rect x="350" y="410" width="140" height="72" fill="#fff" stroke="#DDD6FE" stroke-width="1"/>
+  <rect x="350" y="410" width="140" height="4" fill="#6D28D9"/>
+  <text x="420" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#6D28D9">합성</text>
+  <text x="420" y="462" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">배경교체/요소합성</text>
+
+  <rect x="505" y="410" width="140" height="72" fill="#fff" stroke="#DDD6FE" stroke-width="1"/>
+  <rect x="505" y="410" width="140" height="4" fill="#5B21B6"/>
+  <text x="575" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#5B21B6">영상편집</text>
+  <text x="575" y="462" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">컷편집/자막/효과</text>
+
+  <rect x="660" y="410" width="100" height="72" fill="#8B5CF6" rx="6"/>
+  <text x="710" y="440" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#fff">1~2일</text>
+  <text x="710" y="462" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.9)">빠른 납기</text>
+</svg>

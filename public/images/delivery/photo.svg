@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#FFFBEB"/>
+
+  <!-- Title -->
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#78350F">배달앱 전문 촬영 프로세스</text>
+  <rect x="310" y="62" width="180" height="3" fill="#D97706"/>
+
+  <!-- Step 1 -->
+  <rect x="40" y="90" width="170" height="240" fill="#fff" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="40" y="90" width="170" height="6" fill="#D97706"/>
+  <rect x="101" y="110" width="48" height="48" fill="#D97706" opacity="0.12"/>
+  <text x="125" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#D97706">1</text>
+  <text x="125" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#78350F">일정 조율</text>
+  <text x="125" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">사전 미팅</text>
+  <line x1="70" y1="210" x2="180" y2="210" stroke="#FDE68A" stroke-width="1"/>
+  <rect x="62" y="224" width="6" height="6" fill="#D97706"/>
+  <text x="78" y="232" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">촬영 목적 확인</text>
+  <rect x="62" y="248" width="6" height="6" fill="#D97706"/>
+  <text x="78" y="256" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">메뉴 리스트 정리</text>
+  <rect x="62" y="272" width="6" height="6" fill="#D97706"/>
+  <text x="78" y="280" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">활용처 협의</text>
+  <rect x="62" y="296" width="6" height="6" fill="#D97706"/>
+  <text x="78" y="304" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">촬영 일정 확정</text>
+
+  <!-- Arrow -->
+  <path d="M215 210 L237 210" stroke="#D97706" stroke-width="2"/>
+  <polygon points="237,205 247,210 237,215" fill="#D97706"/>
+
+  <!-- Step 2 -->
+  <rect x="255" y="90" width="170" height="240" fill="#fff" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="255" y="90" width="170" height="6" fill="#B45309"/>
+  <rect x="316" y="110" width="48" height="48" fill="#B45309" opacity="0.12"/>
+  <text x="340" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#B45309">2</text>
+  <text x="340" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#78350F">현장 촬영</text>
+  <text x="340" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">전문 촬영감독 방문</text>
+  <line x1="285" y1="210" x2="395" y2="210" stroke="#FDE68A" stroke-width="1"/>
+  <rect x="277" y="224" width="6" height="6" fill="#B45309"/>
+  <text x="293" y="232" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">음식 메뉴 촬영</text>
+  <rect x="277" y="248" width="6" height="6" fill="#B45309"/>
+  <text x="293" y="256" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">매장 인테리어</text>
+  <rect x="277" y="272" width="6" height="6" fill="#B45309"/>
+  <text x="293" y="280" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">조리 과정 촬영</text>
+  <rect x="277" y="296" width="6" height="6" fill="#B45309"/>
+  <text x="293" y="304" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">다양한 앵글 확보</text>
+
+  <!-- Arrow -->
+  <path d="M430 210 L452 210" stroke="#B45309" stroke-width="2"/>
+  <polygon points="452,205 462,210 452,215" fill="#B45309"/>
+
+  <!-- Step 3 -->
+  <rect x="470" y="90" width="170" height="240" fill="#fff" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="470" y="90" width="170" height="6" fill="#92400E"/>
+  <rect x="531" y="110" width="48" height="48" fill="#92400E" opacity="0.12"/>
+  <text x="555" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#92400E">3</text>
+  <text x="555" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#78350F">보정 / 세팅</text>
+  <text x="555" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">플랫폼 최적화</text>
+  <line x1="500" y1="210" x2="610" y2="210" stroke="#FDE68A" stroke-width="1"/>
+  <rect x="492" y="224" width="6" height="6" fill="#92400E"/>
+  <text x="508" y="232" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">색감 보정</text>
+  <rect x="492" y="248" width="6" height="6" fill="#92400E"/>
+  <text x="508" y="256" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">리터칭 작업</text>
+  <rect x="492" y="272" width="6" height="6" fill="#92400E"/>
+  <text x="508" y="280" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">플랫폼별 사이즈</text>
+  <rect x="492" y="296" width="6" height="6" fill="#92400E"/>
+  <text x="508" y="304" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">배달앱 등록</text>
+
+  <!-- Result Box -->
+  <rect x="660" y="130" width="110" height="160" fill="#D97706" rx="6"/>
+  <text x="715" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="rgba(255,255,255,0.8)">RESULT</text>
+  <text x="715" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#fff">주문 전환율</text>
+  <text x="715" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#fff">UP</text>
+  <text x="715" y="268" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.7)">고품질 이미지로</text>
+  <text x="715" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.7)">매출 향상</text>
+
+  <!-- Bottom Stats -->
+  <rect x="40" y="360" width="230" height="120" fill="#fff" stroke="#FDE68A" stroke-width="1"/>
+  <text x="155" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#D97706" letter-spacing="0.1em">촬영 항목</text>
+  <text x="155" y="430" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#78350F">음식 · 매장 · 조리과정</text>
+  <text x="155" y="458" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">전문 촬영감독 방문 촬영</text>
+
+  <rect x="285" y="360" width="230" height="120" fill="#fff" stroke="#FDE68A" stroke-width="1"/>
+  <text x="400" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#B45309" letter-spacing="0.1em">보정 작업</text>
+  <text x="400" y="430" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#78350F">색감 · 리터칭 · 합성</text>
+  <text x="400" y="458" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">내부 디자이너 전담 보정</text>
+
+  <rect x="530" y="360" width="230" height="120" fill="#fff" stroke="#FDE68A" stroke-width="1"/>
+  <text x="645" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#92400E" letter-spacing="0.1em">최종 산출물</text>
+  <text x="645" y="430" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#78350F">플랫폼별 최적 이미지</text>
+  <text x="645" y="458" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">배민 · 쿠팡이츠 · 요기요 세팅</text>
+</svg>

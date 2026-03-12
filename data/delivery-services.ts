@@ -53,6 +53,7 @@ export const deliveryServices: MediaPartner[] = [
       '6년 운영 노하우, 7,000개 이상 매장 최적화 실적',
       '실시간 주문·매출·리뷰 데이터 모니터링 시스템',
     ],
+    images: ['/images/delivery/analysis.svg'],
   },
   {
     name: '사진촬영 서비스',
@@ -106,6 +107,7 @@ export const deliveryServices: MediaPartner[] = [
       '색감 보정 및 리터칭 후 바로 등록 가능한 완성본 제공',
       '메뉴·매장·조리과정 등 다양한 촬영 컷 포함',
     ],
+    images: ['/images/delivery/photo.svg'],
   },
   {
     name: '플랫폼 최적화 / 광고대행',
@@ -159,6 +161,7 @@ export const deliveryServices: MediaPartner[] = [
       '상권 데이터 기반 시간대별·요일별 노출 전략',
       '정기 성과 분석 리포트 및 전략 조정',
     ],
+    images: ['/images/delivery/optimize.svg'],
   },
   {
     name: '고객 리뷰 관리 시스템',
@@ -212,6 +215,7 @@ export const deliveryServices: MediaPartner[] = [
       '악성·허위 리뷰 대응 및 삭제 요청 지원',
       '정기 리뷰 분석 리포트로 고객 만족도 관리',
     ],
+    images: ['/images/delivery/review.svg'],
   },
 ]
 

@@ -53,6 +53,7 @@ export const productionServices: MediaPartner[] = [
       '전문 장비 + 조명으로 최적의 촬영 환경 조성',
       '고해상도 원본 제공 + 전문 보정 작업 포함',
     ],
+    images: ['/images/production/photo.svg'],
   },
   {
     name: '영상 촬영 / 숏폼 제작',
@@ -106,6 +107,7 @@ export const productionServices: MediaPartner[] = [
       'BGM·자막·트랜지션·색감 보정 전문 편집',
       '플랫폼별 최적 비율·길이 맞춤 제작 후 즉시 업로드 가능',
     ],
+    images: ['/images/production/video.svg'],
   },
   {
     name: '사진·영상 보정',
@@ -159,6 +161,7 @@ export const productionServices: MediaPartner[] = [
       '브랜드 톤앤매너에 맞는 일관된 결과물',
       'SNS·배달앱·홈페이지·인쇄물 등 플랫폼별 최적 변환',
     ],
+    images: ['/images/production/retouch.svg'],
   },
   {
     name: '디자인 제작',
@@ -214,6 +217,7 @@ export const productionServices: MediaPartner[] = [
       '브랜드 아이덴티티 반영 통일감 있는 디자인',
       '요청서 제출 → 초안 → 피드백 → 최종 확정 프로세스',
     ],
+    images: ['/images/production/design.svg'],
   },
 ]
 

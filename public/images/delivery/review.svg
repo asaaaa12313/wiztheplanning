@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#EFF6FF"/>
+
+  <!-- Title -->
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#1E3A5F">고객 리뷰 관리 시스템</text>
+  <rect x="310" y="62" width="180" height="3" fill="#2563EB"/>
+
+  <!-- Flow: Monitor → Respond → Improve -->
+  <rect x="40" y="90" width="220" height="210" fill="#fff" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="40" y="90" width="220" height="6" fill="#2563EB"/>
+  <text x="150" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#1E3A5F">실시간 모니터링</text>
+  <text x="150" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">전 플랫폼 리뷰 추적</text>
+  <line x1="70" y1="158" x2="230" y2="158" stroke="#BFDBFE" stroke-width="1"/>
+
+  <!-- Review items -->
+  <rect x="60" y="172" width="180" height="28" fill="#EFF6FF" rx="4"/>
+  <rect x="66" y="178" width="14" height="14" fill="#FDE68A" rx="2"/>
+  <text x="88" y="191" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">배민 새 리뷰 알림</text>
+  <text x="224" y="191" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#2563EB">NEW</text>
+
+  <rect x="60" y="206" width="180" height="28" fill="#EFF6FF" rx="4"/>
+  <rect x="66" y="212" width="14" height="14" fill="#FDE68A" rx="2"/>
+  <text x="88" y="225" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">쿠팡이츠 리뷰 추적</text>
+  <text x="224" y="225" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#2563EB">NEW</text>
+
+  <rect x="60" y="240" width="180" height="28" fill="#EFF6FF" rx="4"/>
+  <rect x="66" y="246" width="14" height="14" fill="#FDE68A" rx="2"/>
+  <text x="88" y="259" font-family="system-ui, sans-serif" font-size="11" fill="#4B5563">요기요 별점 변동</text>
+  <text x="224" y="259" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#059669">4.8</text>
+
+  <!-- Arrow -->
+  <path d="M265 195 L290 195" stroke="#2563EB" stroke-width="2"/>
+  <polygon points="290,190 300,195 290,200" fill="#2563EB"/>
+
+  <!-- Response -->
+  <rect x="305" y="90" width="220" height="210" fill="#fff" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="305" y="90" width="220" height="6" fill="#1D4ED8"/>
+  <text x="415" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#1E3A5F">전문 답글 관리</text>
+  <text x="415" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">리뷰 유형별 맞춤 대응</text>
+  <line x1="335" y1="158" x2="495" y2="158" stroke="#BFDBFE" stroke-width="1"/>
+
+  <rect x="325" y="172" width="180" height="28" fill="#ECFDF5" rx="4"/>
+  <text x="335" y="191" font-family="system-ui, sans-serif" font-size="11" fill="#059669" font-weight="600">긍정 리뷰</text>
+  <text x="499" y="191" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">감사 답글</text>
+
+  <rect x="325" y="206" width="180" height="28" fill="#FEF3C7" rx="4"/>
+  <text x="335" y="225" font-family="system-ui, sans-serif" font-size="11" fill="#D97706" font-weight="600">개선 요청</text>
+  <text x="499" y="225" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">진정성 대응</text>
+
+  <rect x="325" y="240" width="180" height="28" fill="#FEF2F2" rx="4"/>
+  <text x="335" y="259" font-family="system-ui, sans-serif" font-size="11" fill="#DC2626" font-weight="600">악성 리뷰</text>
+  <text x="499" y="259" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">삭제 요청</text>
+
+  <!-- Arrow -->
+  <path d="M530 195 L555 195" stroke="#1D4ED8" stroke-width="2"/>
+  <polygon points="555,190 565,195 555,200" fill="#1D4ED8"/>
+
+  <!-- Result -->
+  <rect x="570" y="90" width="190" height="210" fill="#fff" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="570" y="90" width="190" height="6" fill="#1E40AF"/>
+  <text x="665" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#1E3A5F">별점 향상</text>
+  <text x="665" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">체계적 관리 성과</text>
+  <line x1="600" y1="158" x2="730" y2="158" stroke="#BFDBFE" stroke-width="1"/>
+
+  <!-- Star rating visual -->
+  <text x="665" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="40" font-weight="800" fill="#2563EB">4.8</text>
+  <text x="665" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">평균 별점 달성</text>
+
+  <rect x="600" y="245" width="130" height="14" fill="#BFDBFE"/>
+  <rect x="600" y="245" width="124" height="14" fill="#2563EB"/>
+  <text x="665" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#6B7280">고객 만족도 96%</text>
+
+  <!-- Bottom Stats -->
+  <rect x="40" y="325" width="720" height="3" fill="#BFDBFE"/>
+
+  <rect x="40" y="350" width="170" height="130" fill="#fff" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="125" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#2563EB">실시간</text>
+  <text x="125" y="415" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">리뷰 알림</text>
+  <text x="125" y="455" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">전 플랫폼 통합</text>
+
+  <rect x="225" y="350" width="170" height="130" fill="#fff" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="310" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#1D4ED8">전문</text>
+  <text x="310" y="415" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">답글 관리</text>
+  <text x="310" y="455" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">유형별 맞춤 대응</text>
+
+  <rect x="410" y="350" width="170" height="130" fill="#fff" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="495" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#1E40AF">별점↑</text>
+  <text x="495" y="415" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">매장 평점 향상</text>
+  <text x="495" y="455" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">주문 전환율 증가</text>
+
+  <rect x="595" y="350" width="170" height="130" fill="#fff" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="680" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#2563EB">리포트</text>
+  <text x="680" y="415" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">정기 분석</text>
+  <text x="680" y="455" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF">트렌드 파악</text>
+</svg>
