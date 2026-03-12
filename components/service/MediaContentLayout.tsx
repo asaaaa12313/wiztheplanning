@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import type { MediaPartner } from '@/types'
 import MediaCategorySidebar from './MediaCategorySidebar'
 import MediaPartnerSection from './MediaPartnerSection'
@@ -27,13 +27,15 @@ export default function MediaContentLayout({ media, categories }: MediaContentLa
     return () => window.removeEventListener('resize', check)
   }, [])
 
+  const contentRef = useRef<HTMLDivElement>(null)
+
   const handleSelect = (index: number) => {
     setActiveIndex(index)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    contentRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
   return (
-    <div>
+    <div ref={contentRef}>
       {/* 모바일: 수평 스크롤 매체 선택 바 */}
       {isMobile && (
         <div
