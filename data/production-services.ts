@@ -223,5 +223,5 @@ export const productionServices: MediaPartner[] = [
 
 export const productionCategories = [
   { id: 'shooting', name: '촬영', partnerIndices: [0, 1] },
-  { id: 'editing', name: '보정 및 디자인', partnerIndices: [2, 3] },
+  { id: 'editing', name: '디자인제작', partnerIndices: [2, 3] },
 ]

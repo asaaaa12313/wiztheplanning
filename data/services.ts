@@ -160,7 +160,7 @@ export const services: Service[] = [
     subtitle: '매장 사진 · 숏폼 영상 · 메뉴판',
     accent: '#059669',
     description: '전문가의 손길로 만드는 콘텐츠.',
-    tags: ['매장사진', '숏폼영상', '메뉴판', '전단지'],
+    tags: ['촬영', '디자인제작', '홈페이지'],
     bgGradient: 'linear-gradient(160deg,#0a1210,#0f201a 60%,#153025)',
     decoGradient: 'radial-gradient(ellipse at 50% 50%,rgba(5,150,105,.1),transparent 50%)',
     heroBg: 'linear-gradient(135deg,#0a1210,#153025)',
