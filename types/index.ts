@@ -74,3 +74,13 @@ export interface Industry {
   copy: string
   services: string
 }
+
+export type PortfolioCategory = '배달' | '네이버' | '인스타·당근' | '블로그' | '체험단' | '디자인' | '컨텐츠'
+
+export interface PortfolioItem {
+  id: string
+  name: string
+  category: PortfolioCategory
+  link?: string
+  images: string[]
+}
