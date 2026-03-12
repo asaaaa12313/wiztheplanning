@@ -342,9 +342,9 @@ export default function ContactSlidePanel({ open, industry, onClose }: ContactSl
             </a>
           </div>
           <a
-            href="http://pf.kakao.com/_QUTxcb/chat"
+            href="https://pf.kakao.com/_QUTxcb/chat"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
             style={{
               display: 'inline-block',
               padding: '12px 24px',

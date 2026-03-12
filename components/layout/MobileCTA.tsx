@@ -30,9 +30,9 @@ export default function MobileCTA() {
         전화 상담
       </a>
       <a
-        href="http://pf.kakao.com/_QUTxcb/chat"
+        href="https://pf.kakao.com/_QUTxcb/chat"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         style={{
           flex: 1,
           display: 'flex',
