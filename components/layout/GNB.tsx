@@ -53,8 +53,8 @@ export default function GNB() {
       >
         <div
           style={{
-            padding: '0 20px',
-            height: 56,
+            padding: '0 32px',
+            height: 84,
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
@@ -64,7 +64,7 @@ export default function GNB() {
             href="/"
             style={{
               color: textColor,
-              fontSize: 11,
+              fontSize: 16,
               fontWeight: 700,
               letterSpacing: '0.15em',
               textDecoration: 'none',
@@ -76,7 +76,7 @@ export default function GNB() {
 
           {/* Desktop nav */}
           <div
-            style={{ display: 'flex', gap: 28 }}
+            style={{ display: 'flex', gap: 36 }}
             className="hidden md:flex"
           >
             {navLinks.map((link) => (
@@ -85,7 +85,7 @@ export default function GNB() {
                 href={link.href}
                 style={{
                   color: textColor,
-                  fontSize: 10,
+                  fontSize: 14,
                   letterSpacing: '0.18em',
                   textDecoration: 'none',
                   transition: 'color 0.3s',
@@ -106,14 +106,14 @@ export default function GNB() {
               cursor: 'pointer',
               display: 'flex',
               flexDirection: 'column',
-              gap: 5,
-              padding: 4,
+              gap: 6,
+              padding: 6,
             }}
             aria-label="메뉴 열기"
           >
-            <span style={{ display: 'block', width: 22, height: 1.5, background: textColor, transition: 'background 0.3s' }} />
-            <span style={{ display: 'block', width: 22, height: 1.5, background: textColor, transition: 'background 0.3s' }} />
-            <span style={{ display: 'block', width: 14, height: 1.5, background: textColor, transition: 'background 0.3s' }} />
+            <span style={{ display: 'block', width: 28, height: 2, background: textColor, transition: 'background 0.3s' }} />
+            <span style={{ display: 'block', width: 28, height: 2, background: textColor, transition: 'background 0.3s' }} />
+            <span style={{ display: 'block', width: 18, height: 2, background: textColor, transition: 'background 0.3s' }} />
           </button>
         </div>
       </nav>
