@@ -10,8 +10,8 @@ export default function ServiceGrid() {
         display: 'grid',
         gridTemplateColumns: '1fr 1fr',
         gridTemplateRows: '1.2fr 1fr 1fr 1fr',
-        gap: 2,
-        background: '#e5e5e5',
+        gap: 0,
+        background: '#000',
       }}
     >
       {services.map((service, i) => (

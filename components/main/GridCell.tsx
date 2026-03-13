@@ -39,8 +39,8 @@ export default function GridCell({ service: s, style: wrapperStyle }: GridCellPr
           position: 'absolute',
           inset: 0,
           background: s.bgGradient,
-          transition: 'transform 0.7s',
-          transform: hovered ? 'scale(1.08)' : 'scale(1)',
+          transition: 'transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+          transform: hovered ? 'scale(1.03)' : 'scale(1)',
         }}
       />
 
@@ -81,7 +81,7 @@ export default function GridCell({ service: s, style: wrapperStyle }: GridCellPr
         style={{
           position: 'absolute',
           inset: 0,
-          background: hovered ? 'rgba(0,0,0,0.2)' : 'rgba(0,0,0,0)',
+          background: hovered ? 'rgba(0,0,0,0.15)' : 'rgba(0,0,0,0)',
           transition: 'background 0.5s',
         }}
       />
@@ -105,7 +105,7 @@ export default function GridCell({ service: s, style: wrapperStyle }: GridCellPr
             fontWeight: 900,
             letterSpacing: '-0.05em',
             whiteSpace: 'nowrap',
-            color: hovered ? 'rgba(255,255,255,0.15)' : 'rgba(255,255,255,0.04)',
+            color: hovered ? 'rgba(255,255,255,0.06)' : 'rgba(255,255,255,0.02)',
             transition: 'color 0.7s',
           }}
         >
@@ -128,8 +128,8 @@ export default function GridCell({ service: s, style: wrapperStyle }: GridCellPr
         <p
           style={{
             color: 'rgba(255,255,255,0.7)',
-            fontSize: 9,
-            letterSpacing: '0.2em',
+            fontSize: 10,
+            letterSpacing: '0.3em',
             fontFamily: 'var(--font-gothic-a1), sans-serif',
           }}
         >
@@ -143,8 +143,9 @@ export default function GridCell({ service: s, style: wrapperStyle }: GridCellPr
               color: '#fff',
               fontFamily: s.font,
               fontWeight: 900,
-              fontSize: 'clamp(22px,3vw,40px)',
+              fontSize: 'clamp(20px,2.5vw,34px)',
               lineHeight: 1.2,
+              letterSpacing: '-0.02em',
               whiteSpace: 'pre-line',
               marginBottom: 4,
             }}
@@ -154,8 +155,8 @@ export default function GridCell({ service: s, style: wrapperStyle }: GridCellPr
           <p
             style={{
               color: 'rgba(255,255,255,0.85)',
-              fontSize: 11,
-              maxWidth: 250,
+              fontSize: 13,
+              maxWidth: 300,
               fontFamily: 'var(--font-noto-sans-kr), sans-serif',
               opacity: hovered ? 1 : 0,
               transform: hovered ? 'translateY(0)' : 'translateY(4px)',
@@ -168,7 +169,8 @@ export default function GridCell({ service: s, style: wrapperStyle }: GridCellPr
             style={{
               marginTop: 12,
               opacity: hovered ? 1 : 0.4,
-              transition: 'opacity 0.3s',
+              transform: hovered ? 'translateX(4px)' : 'translateX(0)',
+              transition: 'opacity 0.3s, transform 0.3s',
             }}
           >
             <svg

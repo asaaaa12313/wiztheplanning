@@ -112,7 +112,7 @@ export default function PortfolioGrid() {
             style={{
               position: 'sticky',
               top: 100,
-              width: 280,
+              width: 220,
               flexShrink: 0,
               alignSelf: 'flex-start',
               padding: '24px 0',
@@ -126,21 +126,22 @@ export default function PortfolioGrid() {
                 width: '100%',
                 textAlign: 'left',
                 padding: '14px 24px',
-                fontSize: 16,
-                fontWeight: activeCategory === null ? 700 : 400,
+                fontSize: 14,
+                fontWeight: activeCategory === null ? 600 : 400,
                 color: activeCategory === null ? '#111' : '#333',
-                background: activeCategory === null ? '#f8f8f8' : 'transparent',
+                background: 'transparent',
                 cursor: 'pointer',
-                borderTop: 'none',
+                borderTop: '1px solid #f0f0f0',
                 borderRight: 'none',
-                borderBottom: '1px solid #f0f0f0',
-                borderLeft: `3px solid ${activeCategory === null ? '#111' : 'transparent'}`,
+                borderBottom: 'none',
+                borderLeft: 'none',
+                letterSpacing: '0.05em',
                 transition: 'all 0.2s',
                 fontFamily: 'inherit',
               }}
             >
               전체
-              <span style={{ marginLeft: 8, fontSize: 13, color: '#999' }}>
+              <span style={{ marginLeft: 8, fontSize: 13, color: '#777' }}>
                 {portfolioItems.length}
               </span>
             </button>
@@ -158,25 +159,28 @@ export default function PortfolioGrid() {
                     width: '100%',
                     textAlign: 'left',
                     padding: '14px 24px',
-                    fontSize: 16,
-                    fontWeight: isActive ? 700 : 400,
+                    fontSize: 14,
+                    fontWeight: isActive ? 600 : 400,
                     color: isActive ? cat.color : '#333',
-                    background: isActive ? `${cat.color}08` : 'transparent',
+                    background: 'transparent',
                     cursor: 'pointer',
-                    borderTop: 'none',
+                    borderTop: '1px solid #f0f0f0',
                     borderRight: 'none',
-                    borderBottom: '1px solid #f0f0f0',
-                    borderLeft: `3px solid ${isActive ? cat.color : 'transparent'}`,
+                    borderBottom: 'none',
+                    borderLeft: 'none',
+                    letterSpacing: '0.05em',
                     transition: 'all 0.2s',
                     fontFamily: 'inherit',
                   }}
                 >
-                  <span style={{ fontSize: 11, color: '#999', marginRight: 8 }}>{cat.number}</span>
-                  {cat.name}
-                  <span style={{ marginLeft: 8, fontSize: 13, color: '#999' }}>{count}</span>
-                  <br />
-                  <span style={{ fontSize: 11, color: '#bbb', letterSpacing: '0.05em' }}>
-                    {cat.english}
+                  <span style={{ fontSize: 28, fontWeight: 200, color: isActive ? cat.color : '#bbb', marginRight: 12, lineHeight: 1, transition: 'color 0.2s' }}>{cat.number}</span>
+                  <span style={{ display: 'inline-block', verticalAlign: 'middle' }}>
+                    {cat.name}
+                    <span style={{ marginLeft: 6, fontSize: 12, color: '#777' }}>{count}</span>
+                    <br />
+                    <span style={{ fontSize: 11, color: '#999', letterSpacing: '0.05em' }}>
+                      {cat.english}
+                    </span>
                   </span>
                 </button>
               )
@@ -192,7 +196,7 @@ export default function PortfolioGrid() {
               gridTemplateColumns: isMobile
                 ? 'repeat(2, 1fr)'
                 : 'repeat(auto-fill, minmax(260px, 1fr))',
-              gap: 16,
+              gap: 10,
             }}
           >
             {filtered.map((item) => (

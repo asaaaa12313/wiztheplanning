@@ -14,7 +14,7 @@ export default function PortfolioPage() {
       style={{
         paddingTop: 56,
         minHeight: '100vh',
-        background: '#fff',
+        background: '#FAFAF8',
         fontFamily: 'var(--font-noto-sans-kr), sans-serif',
       }}
     >

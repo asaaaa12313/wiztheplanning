@@ -26,21 +26,15 @@ export default function PortfolioCard({ item, onClick }: Props) {
         borderRadius: 0,
         overflow: 'hidden',
         cursor: 'pointer',
-        background: '#f5f5f5',
-        transition: 'transform 0.25s, box-shadow 0.25s',
-        transform: hovered ? 'translateY(-4px)' : 'none',
-        boxShadow: hovered ? '0 12px 32px rgba(0,0,0,0.12)' : '0 2px 8px rgba(0,0,0,0.06)',
+        border: '1px solid #f0f0f0',
       }}
     >
-      {/* 이미지 또는 플레이스홀더 */}
+      {/* 이미지 영역 (세로형 3/4) */}
       <div
         style={{
           position: 'relative',
-          aspectRatio: '4/3',
+          aspectRatio: '3/4',
           background: hasImages ? '#eee' : `linear-gradient(135deg, ${color}22, ${color}44)`,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
           overflow: 'hidden',
         }}
       >
@@ -52,13 +46,12 @@ export default function PortfolioCard({ item, onClick }: Props) {
             sizes="(max-width: 768px) 50vw, 33vw"
             style={{
               objectFit: 'cover',
-              transition: 'transform 0.3s',
-              transform: hovered ? 'scale(1.05)' : 'scale(1)',
+              transition: 'transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+              transform: hovered ? 'scale(1.03)' : 'scale(1)',
             }}
           />
         ) : (
-          <div style={{ textAlign: 'center', padding: 20 }}>
-            {/* 링크 아이콘 */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
             <svg
               width="32"
               height="32"
@@ -75,35 +68,42 @@ export default function PortfolioCard({ item, onClick }: Props) {
           </div>
         )}
 
-        {/* 호버 오버레이 */}
+        {/* 상시 하단 그라데이션 */}
         <div
           style={{
             position: 'absolute',
             inset: 0,
-            background: `linear-gradient(to top, ${color}cc, transparent)`,
-            opacity: hovered ? 1 : 0,
-            transition: 'opacity 0.3s',
-            display: 'flex',
-            alignItems: 'flex-end',
-            padding: 16,
+            background: hovered
+              ? 'linear-gradient(to top, rgba(0,0,0,0.6), transparent 60%)'
+              : 'linear-gradient(to top, rgba(0,0,0,0.4), transparent 50%)',
+            transition: 'background 0.4s',
+          }}
+        />
+
+        {/* 카테고리 뱃지 (좌상단) */}
+        <div
+          style={{
+            position: 'absolute',
+            top: 10,
+            left: 10,
+            fontSize: 11,
+            fontWeight: 600,
+            color: color,
+            background: 'rgba(255,255,255,0.9)',
+            padding: '2px 8px',
+            borderRadius: 0,
           }}
         >
-          <span style={{ color: '#fff', fontSize: 14, fontWeight: 600 }}>
-            {hasImages && item.images.length > 1
-              ? `이미지 ${item.images.length}장 보기`
-              : hasLink
-                ? '바로가기 →'
-                : '상세보기'}
-          </span>
+          {item.category}
         </div>
 
-        {/* 이미지 카운트 뱃지 */}
+        {/* 이미지 카운트 뱃지 (우상단) */}
         {hasImages && item.images.length > 1 && (
           <div
             style={{
               position: 'absolute',
-              top: 8,
-              right: 8,
+              top: 10,
+              right: 10,
               background: 'rgba(0,0,0,0.6)',
               color: '#fff',
               fontSize: 12,
@@ -121,8 +121,8 @@ export default function PortfolioCard({ item, onClick }: Props) {
           <div
             style={{
               position: 'absolute',
-              top: 8,
-              left: 8,
+              top: 36,
+              left: 10,
               background: 'rgba(0,0,0,0.6)',
               borderRadius: 0,
               width: 28,
@@ -139,36 +139,45 @@ export default function PortfolioCard({ item, onClick }: Props) {
             </svg>
           </div>
         )}
-      </div>
 
-      {/* 하단 정보 */}
-      <div style={{ padding: '12px 14px' }}>
-        <p
+        {/* 하단 정보 (이미지 위 오버레이) */}
+        <div
           style={{
-            fontSize: 16,
-            fontWeight: 700,
-            color: '#111',
-            marginBottom: 6,
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap',
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            padding: '16px',
           }}
         >
-          {item.name}
-        </p>
-        <span
-          style={{
-            display: 'inline-block',
-            fontSize: 13,
-            fontWeight: 600,
-            color: color,
-            background: `${color}15`,
-            padding: '2px 8px',
-            borderRadius: 0,
-          }}
-        >
-          {item.category}
-        </span>
+          <p
+            style={{
+              fontSize: 14,
+              fontWeight: 600,
+              color: '#fff',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              whiteSpace: 'nowrap',
+              marginBottom: 4,
+            }}
+          >
+            {item.name}
+          </p>
+          <span
+            style={{
+              fontSize: 12,
+              color: 'rgba(255,255,255,0.7)',
+              opacity: hovered ? 1 : 0,
+              transition: 'opacity 0.3s',
+            }}
+          >
+            {hasImages && item.images.length > 1
+              ? `이미지 ${item.images.length}장 보기`
+              : hasLink
+                ? '바로가기 →'
+                : '상세보기'}
+          </span>
+        </div>
       </div>
     </div>
   )
